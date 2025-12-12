@@ -1,0 +1,1291 @@
+Script started on 2025-12-11 11:31:23+05:30 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="120" LINES="30"]
+[?2004h(base) ]0;nagesh@TIGER07005: ~[01;32mnagesh@TIGER07005[00m:[01;34m~[00m$ [7msudo apt install git-all[27msudo apt install git-all
+[?2004l[sudo] password for nagesh: 
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree... Done
+Reading state information... 0% Reading state information... 0%Reading state information... Done
+The following additional packages will be installed:
+  apache2 apache2-bin apache2-data apache2-utils bzip2 cvs cvsps git-cvs git-doc git-email git-gui git-mediawiki
+  git-svn gitk gitweb libalgorithm-c3-perl libapr1 libaprutil1 libaprutil1-dbd-sqlite3 libaprutil1-ldap
+  libauthen-sasl-perl libb-hooks-endofscope-perl libb-hooks-op-check-perl libcgi-fast-perl libcgi-pm-perl
+  libclass-c3-perl libclass-c3-xs-perl libclass-data-inheritable-perl libclass-inspector-perl
+  libclass-method-modifiers-perl libclass-singleton-perl libclass-xsaccessor-perl libclone-perl libcommon-sense-perl
+  libdata-dump-perl libdata-optlist-perl libdatetime-format-builder-perl libdatetime-format-iso8601-perl
+  libdatetime-format-strptime-perl libdatetime-locale-perl libdatetime-perl libdatetime-timezone-perl
+  libdbd-sqlite3-perl libdbi-perl libdevel-callchecker-perl libdevel-caller-perl libdevel-lexalias-perl
+  libdevel-stacktrace-perl libdigest-bubblebabble-perl libdigest-hmac-perl libdynaloader-functions-perl
+  libemail-valid-perl libencode-locale-perl libeval-closure-perl libexception-class-perl libfcgi-bin libfcgi-perl
+  libfcgi0ldbl libfile-listing-perl libfile-sharedir-perl libfont-afm-perl libfontenc1 libhtml-form-perl
+  libhtml-format-perl libhtml-parser-perl libhtml-tagset-perl libhtml-tree-perl libhttp-cookies-perl
+  libhttp-daemon-perl libhttp-date-perl libhttp-message-perl libhttp-negotiate-perl libice6 libidn12 libio-html-perl
+  libio-socket-ssl-perl libjson-perl libjson-xs-perl liblua5.3-0 liblwp-mediatypes-perl liblwp-protocol-https-perl
+  libmailtools-perl libmediawiki-api-perl libmodule-implementation-perl libmodule-runtime-perl libmro-compat-perl
+  libnamespace-autoclean-perl libnamespace-clean-perl libnet-dns-perl libnet-dns-sec-perl libnet-domain-tld-perl
+  libnet-http-perl libnet-ip-perl libnet-libidn-perl libnet-smtp-ssl-perl libnet-ssleay-perl libpackage-stash-perl
+  libpackage-stash-xs-perl libpadwalker-perl libparams-classify-perl libparams-util-perl libparams-validate-perl
+  libparams-validationcompiler-perl libperl4-corelibs-perl libreadonly-perl libref-util-perl libref-util-xs-perl
+  librole-tiny-perl libserf-1-1 libsm6 libspecio-perl libsub-exporter-perl libsub-exporter-progressive-perl
+  libsub-identify-perl libsub-install-perl libsub-name-perl libsub-quote-perl libsvn-perl libsvn1 libtcl8.6
+  libterm-readkey-perl libtimedate-perl libtk8.6 libtry-tiny-perl libtypes-serialiser-perl liburi-perl libutf8proc2
+  libvariable-magic-perl libwww-perl libwww-robotrules-perl libxaw7 libxcb-shape0 libxft2 libxkbfile1 libxmu6 libxpm4
+  libxss1 libxstring-perl libxt6 libxv1 libxxf86dga1 libyaml-libyaml-perl libyaml-perl mailcap mime-support
+  perl-openssl-defaults ssl-cert tcl tcl8.6 tk tk8.6 x11-utils xbitmaps xterm
+Suggested packages:
+  apache2-doc apache2-suexec-pristine | apache2-suexec-custom www-browser bzip2-doc mksh rcs git-daemon-run
+  | git-daemon-sysvinit aspell meld mediawiki subversion libgssapi-perl libmldbm-perl libnet-daemon-perl
+  libsql-statement-perl libcrypt-ssleay-perl libscalar-number-perl libtest-fatal-perl libbusiness-isbn-perl
+  libauthen-ntlm-perl libyaml-shell-perl tcl-tclreadline mesa-utils xfonts-cyrillic
+The following NEW packages will be installed:
+  apache2 apache2-bin apache2-data apache2-utils bzip2 cvs cvsps git-all git-cvs git-doc git-email git-gui
+  git-mediawiki git-svn gitk gitweb libalgorithm-c3-perl libapr1 libaprutil1 libaprutil1-dbd-sqlite3 libaprutil1-ldap
+  libauthen-sasl-perl libb-hooks-endofscope-perl libb-hooks-op-check-perl libcgi-fast-perl libcgi-pm-perl
+  libclass-c3-perl libclass-c3-xs-perl libclass-data-inheritable-perl libclass-inspector-perl
+  libclass-method-modifiers-perl libclass-singleton-perl libclass-xsaccessor-perl libclone-perl libcommon-sense-perl
+  libdata-dump-perl libdata-optlist-perl libdatetime-format-builder-perl libdatetime-format-iso8601-perl
+  libdatetime-format-strptime-perl libdatetime-locale-perl libdatetime-perl libdatetime-timezone-perl
+  libdbd-sqlite3-perl libdbi-perl libdevel-callchecker-perl libdevel-caller-perl libdevel-lexalias-perl
+  libdevel-stacktrace-perl libdigest-bubblebabble-perl libdigest-hmac-perl libdynaloader-functions-perl
+  libemail-valid-perl libencode-locale-perl libeval-closure-perl libexception-class-perl libfcgi-bin libfcgi-perl
+  libfcgi0ldbl libfile-listing-perl libfile-sharedir-perl libfont-afm-perl libfontenc1 libhtml-form-perl
+  libhtml-format-perl libhtml-parser-perl libhtml-tagset-perl libhtml-tree-perl libhttp-cookies-perl
+  libhttp-daemon-perl libhttp-date-perl libhttp-message-perl libhttp-negotiate-perl libice6 libidn12 libio-html-perl
+  libio-socket-ssl-perl libjson-perl libjson-xs-perl liblua5.3-0 liblwp-mediatypes-perl liblwp-protocol-https-perl
+  libmailtools-perl libmediawiki-api-perl libmodule-implementation-perl libmodule-runtime-perl libmro-compat-perl
+  libnamespace-autoclean-perl libnamespace-clean-perl libnet-dns-perl libnet-dns-sec-perl libnet-domain-tld-perl
+  libnet-http-perl libnet-ip-perl libnet-libidn-perl libnet-smtp-ssl-perl libnet-ssleay-perl libpackage-stash-perl
+  libpackage-stash-xs-perl libpadwalker-perl libparams-classify-perl libparams-util-perl libparams-validate-perl
+  libparams-validationcompiler-perl libperl4-corelibs-perl libreadonly-perl libref-util-perl libref-util-xs-perl
+  librole-tiny-perl libserf-1-1 libsm6 libspecio-perl libsub-exporter-perl libsub-exporter-progressive-perl
+  libsub-identify-perl libsub-install-perl libsub-name-perl libsub-quote-perl libsvn-perl libsvn1 libtcl8.6
+  libterm-readkey-perl libtimedate-perl libtk8.6 libtry-tiny-perl libtypes-serialiser-perl liburi-perl libutf8proc2
+  libvariable-magic-perl libwww-perl libwww-robotrules-perl libxaw7 libxcb-shape0 libxft2 libxkbfile1 libxmu6 libxpm4
+  libxss1 libxstring-perl libxt6 libxv1 libxxf86dga1 libyaml-libyaml-perl libyaml-perl mailcap mime-support
+  perl-openssl-defaults ssl-cert tcl tcl8.6 tk tk8.6 x11-utils xbitmaps xterm
+0 upgraded, 155 newly installed, 0 to remove and 133 not upgraded.
+Need to get 20.4 MB of archives.
+After this operation, 101 MB of additional disk space will be used.
+Do you want to continue? [Y/n] y
+[33m0% [Working][0m[33m0% [Waiting for headers][0m                        Get:1 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libapr1 amd64 1.7.0-8ubuntu0.22.04.2 [108 kB]
+[33m0% [1 libapr1 14.2 kB/108 kB 13%][0m[33m0% [1 libapr1 66.3 kB/108 kB 61%][0m[33m                                 1% [Working][0m            Get:2 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libaprutil1 amd64 1.6.1-5ubuntu4.22.04.2 [92.8 kB]
+[33m1% [2 libaprutil1 14.2 kB/92.8 kB 15%][0m[33m1% [2 libaprutil1 79.3 kB/92.8 kB 86%][0m[33m                                      1% [Working][0m            Get:3 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libaprutil1-dbd-sqlite3 amd64 1.6.1-5ubuntu4.22.04.2 [11.3 kB]
+[33m1% [3 libaprutil1-dbd-sqlite3 11.3 kB/11.3 kB 100%][0m[33m                                                   1% [Working][0m            Get:4 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libaprutil1-ldap amd64 1.6.1-5ubuntu4.22.04.2 [9170 B]
+[33m1% [4 libaprutil1-ldap 9170 B/9170 B 100%][0m[33m                                          1% [Working][0m            Get:5 http://archive.ubuntu.com/ubuntu jammy/main amd64 liblua5.3-0 amd64 5.3.6-1build1 [140 kB]
+[33m1% [5 liblua5.3-0 24.3 kB/140 kB 17%][0m[33m                                     2% [Waiting for headers][0m                        Get:6 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 apache2-bin amd64 2.4.52-1ubuntu4.16 [1349 kB]
+[33m2% [6 apache2-bin 5498 B/1349 kB 0%][0m[33m7% [6 apache2-bin 1248 kB/1349 kB 92%][0m[33m                                      7% [Waiting for headers][0m                        Get:7 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 apache2-data all 2.4.52-1ubuntu4.16 [165 kB]
+[33m8% [7 apache2-data 34.1 kB/165 kB 21%][0m[33m                                      8% [Waiting for headers][0m                        Get:8 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 apache2-utils amd64 2.4.52-1ubuntu4.16 [89.3 kB]
+[33m8% [8 apache2-utils 31.6 kB/89.3 kB 35%][0m[33m                                        9% [Waiting for headers][0m                        Get:9 http://archive.ubuntu.com/ubuntu jammy/main amd64 mailcap all 3.70+nmu1ubuntu1 [23.8 kB]
+[33m9% [9 mailcap 23.8 kB/23.8 kB 100%][0m[33m                                   9% [Waiting for headers][0m                        Get:10 http://archive.ubuntu.com/ubuntu jammy/main amd64 mime-support all 3.66 [3696 B]
+[33m                        9% [Working][0m            Get:11 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 apache2 amd64 2.4.52-1ubuntu4.16 [97.9 kB]
+[33m9% [11 apache2 65.2 kB/97.9 kB 67%][0m[33m                                   10% [Waiting for headers][0m                         Get:12 http://archive.ubuntu.com/ubuntu jammy/main amd64 bzip2 amd64 1.0.8-5build1 [34.8 kB]
+[33m10% [12 bzip2 34.8 kB/34.8 kB 100%][0m[33m                                   10% [Waiting for headers][0m                         Get:13 http://archive.ubuntu.com/ubuntu jammy/universe amd64 cvs amd64 2:1.12.13+real-28 [2526 kB]
+[33m10% [13 cvs 44.6 kB/2526 kB 2%][0m[33m                               20% [Working][0m             Get:14 http://archive.ubuntu.com/ubuntu jammy/universe amd64 cvsps amd64 2.1-8build2 [43.8 kB]
+[33m20% [14 cvsps 2606 B/43.8 kB 6%][0m[33m                                20% [Working][0m             Get:15 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 git-doc all 1:2.34.1-1ubuntu1.15 [1117 kB]
+[33m20% [15 git-doc 24.6 kB/1117 kB 2%][0m[33m                                   25% [Working][0m             Get:16 http://archive.ubuntu.com/ubuntu jammy/main amd64 libdbi-perl amd64 1.643-3build3 [741 kB]
+[33m25% [16 libdbi-perl 14.2 kB/741 kB 2%]                                                                     936 kB/s 15s[0m[33m25% [16 libdbi-perl 86.6 kB/741 kB 12%]                                                                    936 kB/s 15s[0m[33m27% [16 libdbi-perl 512 kB/741 kB 69%]                                                                     936 kB/s 15s[0m[33m28% [Working]                                                                                              936 kB/s 14s[0m                                                                                                                       Get:17 http://archive.ubuntu.com/ubuntu jammy/universe amd64 libdbd-sqlite3-perl amd64 1.70-3build1 [165 kB]
+[33m28% [17 libdbd-sqlite3-perl 65.2 kB/165 kB 40%]                                                            936 kB/s 14s[0m[33m29% [Working]                                                                                              936 kB/s 14s[0m                                                                                                                       Get:18 http://archive.ubuntu.com/ubuntu jammy-updates/universe amd64 git-cvs all 1:2.34.1-1ubuntu1.15 [70.5 kB]
+[33m29% [18 git-cvs 2605 B/70.5 kB 4%]                                                                         936 kB/s 14s[0m[33m29% [Working]                                                                                              936 kB/s 14s[0m                                                                                                                       Get:19 http://archive.ubuntu.com/ubuntu jammy/main amd64 libjson-perl all 4.04000-1 [81.8 kB]
+[33m29% [19 libjson-perl 4096 B/81.8 kB 5%]                                                                    936 kB/s 14s[0m[33m29% [Working]                                                                                              936 kB/s 14s[0m                                                                                                                       Get:20 http://archive.ubuntu.com/ubuntu jammy/main amd64 libencode-locale-perl all 1.05-1.1 [11.8 kB]
+[33m29% [20 libencode-locale-perl 0 B/11.8 kB 0%]                                                              936 kB/s 14s[0m[33m30% [Waiting for headers]                                                                                  936 kB/s 14s[0m[33m30% [Waiting for headers]                                                                                  936 kB/s 14s[0m                                                                                                                       Get:21 http://archive.ubuntu.com/ubuntu jammy/main amd64 libtimedate-perl all 2.3300-2 [34.0 kB]
+[33m30% [21 libtimedate-perl 14.2 kB/34.0 kB 42%]                                                              936 kB/s 14s[0m[33m30% [Working]                                                                                              936 kB/s 14s[0m                                                                                                                       Get:22 http://archive.ubuntu.com/ubuntu jammy/main amd64 libhttp-date-perl all 6.05-1 [9920 B]
+[33m30% [22 libhttp-date-perl 8399 B/9920 B 85%]                                                               936 kB/s 14s[0m[33m30% [Working]                                                                                              936 kB/s 14s[0m                                                                                                                       Get:23 http://archive.ubuntu.com/ubuntu jammy/main amd64 libfile-listing-perl all 6.14-1 [11.2 kB]
+[33m30% [23 libfile-listing-perl 2606 B/11.2 kB 23%]                                                           936 kB/s 14s[0m[33m30% [Working]                                                                                              936 kB/s 14s[0m                                                                                                                       Get:24 http://archive.ubuntu.com/ubuntu jammy/main amd64 libhtml-tagset-perl all 3.20-4 [12.5 kB]
+[33m30% [Waiting for headers]                                                                                  936 kB/s 14s[0m                                                                                                                       Get:25 http://archive.ubuntu.com/ubuntu jammy/main amd64 liburi-perl all 5.10-1 [78.8 kB]
+[33m30% [25 liburi-perl 9845 B/78.8 kB 12%]                                                                    936 kB/s 14s[0m[33m31% [Waiting for headers]                                                                                  936 kB/s 14s[0m                                                                                                                       Get:26 http://archive.ubuntu.com/ubuntu jammy/main amd64 libhtml-parser-perl amd64 3.76-1build2 [88.4 kB]
+[33m31% [26 libhtml-parser-perl 11.3 kB/88.4 kB 13%]                                                           936 kB/s 14s[0m[33m31% [Working]                                                                                              936 kB/s 14s[0m                                                                                                                       Get:27 http://archive.ubuntu.com/ubuntu jammy/main amd64 libhtml-tree-perl all 5.07-2 [200 kB]
+[33m31% [27 libhtml-tree-perl 25.3 kB/200 kB 13%]                                                              936 kB/s 14s[0m[33m32% [Working]                                                                                              936 kB/s 13s[0m                                                                                                                       Get:28 http://archive.ubuntu.com/ubuntu jammy/main amd64 libio-html-perl all 1.004-2 [15.4 kB]
+[33m32% [28 libio-html-perl 12.3 kB/15.4 kB 80%]                                                               936 kB/s 13s[0m[33m32% [Waiting for headers]                                                                                  936 kB/s 13s[0m                                                                                                                       Get:29 http://archive.ubuntu.com/ubuntu jammy/main amd64 liblwp-mediatypes-perl all 6.04-1 [19.5 kB]
+[33m32% [29 liblwp-mediatypes-perl 5502 B/19.5 kB 28%]                                                         936 kB/s 13s[0m[33m33% [Working]                                                                                              936 kB/s 13s[0m                                                                                                                       Get:30 http://archive.ubuntu.com/ubuntu jammy/main amd64 libhttp-message-perl all 6.36-1 [76.8 kB]
+[33m33% [30 libhttp-message-perl 9845 B/76.8 kB 13%]                                                           936 kB/s 13s[0m[33m33% [Waiting for headers]                                                                                  936 kB/s 13s[0m                                                                                                                       Get:31 http://archive.ubuntu.com/ubuntu jammy/main amd64 libhttp-cookies-perl all 6.10-1 [18.4 kB]
+[33m33% [31 libhttp-cookies-perl 18.4 kB/18.4 kB 100%]                                                         936 kB/s 13s[0m[33m33% [Working]                                                                                              936 kB/s 13s[0m                                                                                                                       Get:32 http://archive.ubuntu.com/ubuntu jammy/main amd64 libhttp-negotiate-perl all 6.01-1 [12.5 kB]
+[33m33% [32 libhttp-negotiate-perl 8192 B/12.5 kB 65%]                                                         936 kB/s 13s[0m[33m33% [Working]                                                                                              936 kB/s 13s[0m                                                                                                                       Get:33 http://archive.ubuntu.com/ubuntu jammy/main amd64 perl-openssl-defaults amd64 5build2 [7542 B]
+[33m33% [33 perl-openssl-defaults 5503 B/7542 B 73%]                                                           936 kB/s 13s[0m[33m34% [Waiting for headers]                                                                                  271 kB/s 47s[0m                                                                                                                       Get:34 http://archive.ubuntu.com/ubuntu jammy/main amd64 libnet-ssleay-perl amd64 1.92-1build2 [327 kB]
+[33m34% [34 libnet-ssleay-perl 35.9 kB/327 kB 11%]                                                             271 kB/s 47s[0m[33m35% [Waiting for headers]                                                                                  271 kB/s 46s[0m                                                                                                                       Get:35 http://archive.ubuntu.com/ubuntu jammy/main amd64 libio-socket-ssl-perl all 2.074-2 [192 kB]
+[33m35% [35 libio-socket-ssl-perl 9844 B/192 kB 5%]                                                            271 kB/s 46s[0m[33m36% [Working]                                                                                              271 kB/s 45s[0m                                                                                                                       Get:36 http://archive.ubuntu.com/ubuntu jammy/main amd64 libnet-http-perl all 6.22-1 [23.2 kB]
+[33m36% [36 libnet-http-perl 23.2 kB/23.2 kB 100%]                                                             271 kB/s 45s[0m[33m36% [Waiting for headers]                                                                                  271 kB/s 45s[0m                                                                                                                       Get:37 http://archive.ubuntu.com/ubuntu jammy/main amd64 liblwp-protocol-https-perl all 6.10-1 [10.9 kB]
+[33m36% [37 liblwp-protocol-https-perl 8398 B/10.9 kB 77%]                                                     271 kB/s 45s[0m[33m36% [Working]                                                                                              271 kB/s 45s[0m                                                                                                                       Get:38 http://archive.ubuntu.com/ubuntu jammy/main amd64 libtry-tiny-perl all 0.31-1 [21.8 kB]
+[33m36% [Waiting for headers]                                                                                  271 kB/s 45s[0m                                                                                                                       Get:39 http://archive.ubuntu.com/ubuntu jammy/main amd64 libwww-robotrules-perl all 6.02-1 [12.6 kB]
+[33m36% [39 libwww-robotrules-perl 4096 B/12.6 kB 33%]                                                         271 kB/s 45s[0m[33m37% [Working]                                                                                              271 kB/s 45s[0m                                                                                                                       Get:40 http://archive.ubuntu.com/ubuntu jammy/main amd64 libwww-perl all 6.61-1 [141 kB]
+[33m37% [40 libwww-perl 53.2 kB/141 kB 38%]                                                                    271 kB/s 45s[0m[33m37% [Working]                                                                                              271 kB/s 45s[0m                                                                                                                       Get:41 http://archive.ubuntu.com/ubuntu jammy/universe amd64 libmediawiki-api-perl all 0.52-1 [22.8 kB]
+[33m37% [41 libmediawiki-api-perl 22.8 kB/22.8 kB 100%]                                                        271 kB/s 44s[0m[33m37% [Working]                                                                                              271 kB/s 44s[0m                                                                                                                       Get:42 http://archive.ubuntu.com/ubuntu jammy/universe amd64 libclass-inspector-perl all 1.36-1 [16.3 kB]
+[33m38% [42 libclass-inspector-perl 8398 B/16.3 kB 52%]                                                        271 kB/s 44s[0m[33m38% [Waiting for headers]                                                                                  271 kB/s 44s[0m                                                                                                                       Get:43 http://archive.ubuntu.com/ubuntu jammy/universe amd64 libfile-sharedir-perl all 1.118-1 [15.0 kB]
+[33m38% [43 libfile-sharedir-perl 5502 B/15.0 kB 37%]                                                          271 kB/s 44s[0m[33m38% [Working]                                                                                              271 kB/s 44s[0m                                                                                                                       Get:44 http://archive.ubuntu.com/ubuntu jammy/main amd64 libb-hooks-op-check-perl amd64 0.22-1build5 [10.3 kB]
+[33m38% [44 libb-hooks-op-check-perl 8192 B/10.3 kB 80%]                                                       271 kB/s 44s[0m[33m38% [Working]                                                                                              271 kB/s 44s[0m                                                                                                                       Get:45 http://archive.ubuntu.com/ubuntu jammy/main amd64 libdynaloader-functions-perl all 0.003-1.1 [12.1 kB]
+[33m38% [45 libdynaloader-functions-perl 8398 B/12.1 kB 70%]                                                   271 kB/s 44s[0m[33m38% [Waiting for headers]                                                                                  271 kB/s 44s[0m                                                                                                                       Get:46 http://archive.ubuntu.com/ubuntu jammy/main amd64 libdevel-callchecker-perl amd64 0.008-1ubuntu4 [14.9 kB]
+[33m38% [46 libdevel-callchecker-perl 14.9 kB/14.9 kB 100%]                                                    271 kB/s 44s[0m[33m38% [Waiting for headers]                                                                                  271 kB/s 44s[0m                                                                                                                       Get:47 http://archive.ubuntu.com/ubuntu jammy/main amd64 libparams-classify-perl amd64 0.015-1build5 [22.0 kB]
+[33m38% [47 libparams-classify-perl 6950 B/22.0 kB 32%]                                                        271 kB/s 44s[0m[33m39% [Working]                                                                                              271 kB/s 44s[0m                                                                                                                       Get:48 http://archive.ubuntu.com/ubuntu jammy/main amd64 libmodule-runtime-perl all 0.016-1 [16.2 kB]
+[33m39% [48 libmodule-runtime-perl 11.3 kB/16.2 kB 70%]                                                        271 kB/s 44s[0m[33m39% [Working]                                                                                              271 kB/s 44s[0m                                                                                                                       Get:49 http://archive.ubuntu.com/ubuntu jammy/main amd64 libmodule-implementation-perl all 0.09-1.1 [11.6 kB]
+[33m39% [49 libmodule-implementation-perl 11.3 kB/11.6 kB 97%]                                                 271 kB/s 44s[0m[33m39% [Working]                                                                                              271 kB/s 44s[0m                                                                                                                       Get:50 http://archive.ubuntu.com/ubuntu jammy/main amd64 libsub-exporter-progressive-perl all 0.001013-1 [6784 B]
+[33m39% [Waiting for headers]                                                                                  271 kB/s 44s[0m                                                                                                                       Get:51 http://archive.ubuntu.com/ubuntu jammy/main amd64 libvariable-magic-perl amd64 0.62-1build5 [35.9 kB]
+[33m39% [51 libvariable-magic-perl 14.2 kB/35.9 kB 40%]                                                        271 kB/s 44s[0m[33m39% [Working]                                                                                              271 kB/s 44s[0m                                                                                                                       Get:52 http://archive.ubuntu.com/ubuntu jammy/main amd64 libb-hooks-endofscope-perl all 0.25-1 [17.8 kB]
+[33m39% [52 libb-hooks-endofscope-perl 6950 B/17.8 kB 39%]                                                     271 kB/s 44s[0m[33m40% [Working]                                                                                              271 kB/s 44s[0m                                                                                                                       Get:53 http://archive.ubuntu.com/ubuntu jammy/main amd64 libpackage-stash-perl all 0.39-1 [19.1 kB]
+[33m40% [53 libpackage-stash-perl 8192 B/19.1 kB 43%]                                                          271 kB/s 44s[0m[33m40% [Working]                                                                                              271 kB/s 44s[0m                                                                                                                       Get:54 http://archive.ubuntu.com/ubuntu jammy/main amd64 libsub-identify-perl amd64 0.14-1build5 [10.4 kB]
+[33m40% [54 libsub-identify-perl 10.4 kB/10.4 kB 100%]                                                         271 kB/s 44s[0m[33m40% [Working]                                                                                              271 kB/s 44s[0m                                                                                                                       Get:55 http://archive.ubuntu.com/ubuntu jammy/main amd64 libsub-name-perl amd64 0.26-1build3 [11.4 kB]
+[33m40% [55 libsub-name-perl 5502 B/11.4 kB 48%]                                                               271 kB/s 44s[0m[33m40% [Waiting for headers]                                                                                  271 kB/s 44s[0m                                                                                                                       Get:56 http://archive.ubuntu.com/ubuntu jammy/main amd64 libnamespace-clean-perl all 0.27-1 [13.6 kB]
+[33m40% [56 libnamespace-clean-perl 13.6 kB/13.6 kB 100%]                                                      271 kB/s 44s[0m[33m40% [Working]                                                                                              271 kB/s 44s[0m                                                                                                                       Get:57 http://archive.ubuntu.com/ubuntu jammy/main amd64 libnamespace-autoclean-perl all 0.29-1 [12.5 kB]
+[33m40% [57 libnamespace-autoclean-perl 12.5 kB/12.5 kB 100%]                                                  271 kB/s 44s[0m[33m41% [Working]                                                                                              271 kB/s 44s[0m                                                                                                                       Get:58 http://archive.ubuntu.com/ubuntu jammy/main amd64 libparams-util-perl amd64 1.102-1build3 [22.7 kB]
+[33m41% [58 libparams-util-perl 0 B/22.7 kB 0%]                                                                271 kB/s 44s[0m[33m41% [Waiting for headers]                                                                                  271 kB/s 43s[0m                                                                                                                       Get:59 http://archive.ubuntu.com/ubuntu jammy/main amd64 libsub-install-perl all 0.928-1.1 [9972 B]
+[33m41% [59 libsub-install-perl 9972 B/9972 B 100%]                                                            271 kB/s 43s[0m[33m41% [Waiting for headers]                                                                                  271 kB/s 43s[0m                                                                                                                       Get:60 http://archive.ubuntu.com/ubuntu jammy/main amd64 libdata-optlist-perl all 0.112-1 [11.0 kB]
+[33m41% [60 libdata-optlist-perl 6950 B/11.0 kB 63%]                                                       173 kB/s 1min 9s[0m[33m41% [Waiting for headers]                                                                              173 kB/s 1min 8s[0m                                                                                                                       Get:61 http://archive.ubuntu.com/ubuntu jammy/main amd64 libsub-exporter-perl all 0.988-1 [50.6 kB]
+[33m41% [61 libsub-exporter-perl 5502 B/50.6 kB 11%]                                                       173 kB/s 1min 8s[0m[33m41% [Working]                                                                                          173 kB/s 1min 8s[0m                                                                                                                       Get:62 http://archive.ubuntu.com/ubuntu jammy/universe amd64 libeval-closure-perl all 0.14-1 [10.3 kB]
+[33m41% [62 libeval-closure-perl 10.3 kB/10.3 kB 100%]                                                     173 kB/s 1min 8s[0m[33m42% [Waiting for headers]                                                                              173 kB/s 1min 8s[0m                                                                                                                       Get:63 http://archive.ubuntu.com/ubuntu jammy/main amd64 libclass-data-inheritable-perl all 0.08-3 [8084 B]
+[33m42% [63 libclass-data-inheritable-perl 0 B/8084 B 0%]                                                  173 kB/s 1min 8s[0m[33m42% [Working]                                                                                          173 kB/s 1min 8s[0m                                                                                                                       Get:64 http://archive.ubuntu.com/ubuntu jammy/main amd64 libdevel-stacktrace-perl all 2.0400-1 [22.7 kB]
+[33m42% [64 libdevel-stacktrace-perl 2606 B/22.7 kB 11%]                                                   173 kB/s 1min 8s[0m[33m42% [Working]                                                                                          173 kB/s 1min 8s[0m                                                                                                                       Get:65 http://archive.ubuntu.com/ubuntu jammy/main amd64 libexception-class-perl all 1.45-1 [28.6 kB]
+[33m42% [65 libexception-class-perl 11.3 kB/28.6 kB 40%]                                                   173 kB/s 1min 8s[0m[33m42% [Working]                                                                                          173 kB/s 1min 8s[0m                                                                                                                       Get:66 http://archive.ubuntu.com/ubuntu jammy/universe amd64 libparams-validationcompiler-perl all 0.30-1 [28.9 kB]
+[33m42% [66 libparams-validationcompiler-perl 20.5 kB/28.9 kB 71%]                                         173 kB/s 1min 8s[0m[33m42% [Working]                                                                                          173 kB/s 1min 8s[0m                                                                                                                       Get:67 http://archive.ubuntu.com/ubuntu jammy/universe amd64 libalgorithm-c3-perl all 0.11-1 [11.0 kB]
+[33m42% [67 libalgorithm-c3-perl 11.0 kB/11.0 kB 100%]                                                     173 kB/s 1min 8s[0m[33m43% [Working]                                                                                          173 kB/s 1min 8s[0m                                                                                                                       Get:68 http://archive.ubuntu.com/ubuntu jammy/universe amd64 libclass-c3-perl all 0.35-1 [19.0 kB]
+[33m43% [68 libclass-c3-perl 19.0 kB/19.0 kB 100%]                                                         173 kB/s 1min 7s[0m[33m43% [Working]                                                                                          173 kB/s 1min 7s[0m                                                                                                                       Get:69 http://archive.ubuntu.com/ubuntu jammy/universe amd64 libmro-compat-perl all 0.15-1 [11.7 kB]
+[33m43% [69 libmro-compat-perl 9846 B/11.7 kB 84%]                                                         173 kB/s 1min 7s[0m[33m43% [Working]                                                                                          173 kB/s 1min 7s[0m                                                                                                                       Get:70 http://archive.ubuntu.com/ubuntu jammy/main amd64 libclass-method-modifiers-perl all 2.13-1 [16.2 kB]
+[33m43% [70 libclass-method-modifiers-perl 8192 B/16.2 kB 50%]                                             173 kB/s 1min 7s[0m[33m43% [Working]                                                                                          173 kB/s 1min 7s[0m[33m43% [Waiting for headers]                                                                              173 kB/s 1min 7s[0m                                                                                                                       Get:71 http://archive.ubuntu.com/ubuntu jammy/main amd64 librole-tiny-perl all 2.002004-1 [16.3 kB]
+[33m43% [71 librole-tiny-perl 14.2 kB/16.3 kB 87%]                                                         173 kB/s 1min 7s[0m[33m43% [Working]                                                                                          173 kB/s 1min 7s[0m                                                                                                                       Get:72 http://archive.ubuntu.com/ubuntu jammy/main amd64 libsub-quote-perl all 2.006006-1 [19.5 kB]
+[33m43% [72 libsub-quote-perl 19.5 kB/19.5 kB 100%]                                                        173 kB/s 1min 7s[0m[33m44% [Working]                                                                                          173 kB/s 1min 7s[0m                                                                                                                       Get:73 http://archive.ubuntu.com/ubuntu jammy/universe amd64 libxstring-perl amd64 0.005-1build2 [8076 B]
+[33m44% [Waiting for headers]                                                                              173 kB/s 1min 7s[0m                                                                                                                       Get:74 http://archive.ubuntu.com/ubuntu jammy/universe amd64 libspecio-perl all 0.47-1 [140 kB]
+[33m44% [74 libspecio-perl 12.3 kB/140 kB 9%]                                                              173 kB/s 1min 7s[0m[33m44% [Working]                                                                                          173 kB/s 1min 6s[0m                                                                                                                       Get:75 http://archive.ubuntu.com/ubuntu jammy/universe amd64 libdatetime-locale-perl all 1:1.33-1 [2733 kB]
+[33m44% [75 libdatetime-locale-perl 20.5 kB/2733 kB 1%]                                                    173 kB/s 1min 6s[0m[33m46% [75 libdatetime-locale-perl 527 kB/2733 kB 19%]                                                    173 kB/s 1min 3s[0m[33m55% [Working]                                                                                              173 kB/s 50s[0m                                                                                                                       Get:76 http://archive.ubuntu.com/ubuntu jammy/universe amd64 libclass-singleton-perl all 1.6-1 [12.4 kB]
+[33m55% [Working]                                                                                              173 kB/s 50s[0m                                                                                                                       Get:77 http://archive.ubuntu.com/ubuntu jammy/universe amd64 libdatetime-timezone-perl all 1:2.51-1+2021e [273 kB]
+[33m55% [77 libdatetime-timezone-perl 17.1 kB/273 kB 6%]                                                       173 kB/s 50s[0m[33m57% [Working]                                                                                              173 kB/s 49s[0m                                                                                                                       Get:78 http://archive.ubuntu.com/ubuntu jammy/universe amd64 libdatetime-perl amd64 2:1.55-1build1 [97.4 kB]
+[33m57% [78 libdatetime-perl 8192 B/97.4 kB 8%]                                                                173 kB/s 49s[0m[33m57% [Working]                                                                                              173 kB/s 48s[0m                                                                                                                       Get:79 http://archive.ubuntu.com/ubuntu jammy/universe amd64 libdatetime-format-strptime-perl all 1.7900-1 [29.7 kB]
+[33m57% [79 libdatetime-format-strptime-perl 25.8 kB/29.7 kB 87%]                                              584 kB/s 14s[0m[33m57% [Working]                                                                                              584 kB/s 14s[0m                                                                                                                       Get:80 http://archive.ubuntu.com/ubuntu jammy/universe amd64 libparams-validate-perl amd64 1.30-1build3 [54.7 kB]
+[33m57% [80 libparams-validate-perl 8192 B/54.7 kB 15%]                                                        584 kB/s 14s[0m[33m58% [Working]                                                                                              584 kB/s 14s[0m                                                                                                                       Get:81 http://archive.ubuntu.com/ubuntu jammy/universe amd64 libdatetime-format-builder-perl all 0.8300-1 [61.5 kB]
+[33m58% [81 libdatetime-format-builder-perl 16.4 kB/61.5 kB 27%]                                               584 kB/s 14s[0m[33m58% [Working]                                                                                              584 kB/s 14s[0m                                                                                                                       Get:82 http://archive.ubuntu.com/ubuntu jammy/universe amd64 libdatetime-format-iso8601-perl all 0.16-1 [21.6 kB]
+[33m58% [82 libdatetime-format-iso8601-perl 16.4 kB/21.6 kB 76%]                                               584 kB/s 14s[0m[33m58% [Working]                                                                                              584 kB/s 14s[0m                                                                                                                       Get:83 http://archive.ubuntu.com/ubuntu jammy-updates/universe amd64 git-mediawiki all 1:2.34.1-1ubuntu1.15 [22.5 kB]
+[33m58% [83 git-mediawiki 22.5 kB/22.5 kB 100%]                                                                584 kB/s 14s[0m[33m59% [Working]                                                                                              584 kB/s 14s[0m                                                                                                                       Get:84 http://archive.ubuntu.com/ubuntu jammy/universe amd64 libserf-1-1 amd64 1.3.9-10ubuntu2 [50.0 kB]
+[33m59% [84 libserf-1-1 32.8 kB/50.0 kB 65%]                                                                   584 kB/s 13s[0m[33m59% [Working]                                                                                              584 kB/s 13s[0m                                                                                                                       Get:85 http://archive.ubuntu.com/ubuntu jammy/universe amd64 libutf8proc2 amd64 2.7.0-3 [73.9 kB]
+[33m59% [85 libutf8proc2 14.2 kB/73.9 kB 19%]                                                                  584 kB/s 13s[0m[33m59% [Working]                                                                                              584 kB/s 13s[0m                                                                                                                       Get:86 http://archive.ubuntu.com/ubuntu jammy-updates/universe amd64 libsvn1 amd64 1.14.1-3ubuntu0.22.04.1 [1387 kB]
+[33m59% [86 libsvn1 43.1 kB/1387 kB 3%]                                                                        584 kB/s 13s[0m[33m61% [86 libsvn1 324 kB/1387 kB 23%]                                                                        584 kB/s 13s[0m[33m65% [Working]                                                                                              584 kB/s 11s[0m                                                                                                                       Get:87 http://archive.ubuntu.com/ubuntu jammy-updates/universe amd64 libsvn-perl amd64 1.14.1-3ubuntu0.22.04.1 [1083 kB]
+[33m65% [87 libsvn-perl 34.5 kB/1083 kB 3%]                                                                    584 kB/s 11s[0m[33m69% [Working]                                                                                               584 kB/s 9s[0m                                                                                                                       Get:88 http://archive.ubuntu.com/ubuntu jammy/main amd64 libyaml-perl all 1.30-1 [58.2 kB]
+[33m69% [88 libyaml-perl 58.2 kB/58.2 kB 100%]                                                                  584 kB/s 9s[0m[33m70% [Waiting for headers]                                                                                   584 kB/s 9s[0m                                                                                                                       Get:89 http://archive.ubuntu.com/ubuntu jammy/main amd64 libterm-readkey-perl amd64 2.38-1build4 [25.2 kB]
+[33m70% [89 libterm-readkey-perl 12.3 kB/25.2 kB 49%]                                                           584 kB/s 9s[0m[33m70% [Waiting for headers]                                                                                   584 kB/s 9s[0m                                                                                                                       Get:90 http://archive.ubuntu.com/ubuntu jammy-updates/universe amd64 git-svn all 1:2.34.1-1ubuntu1.15 [82.9 kB]
+[33m70% [90 git-svn 28.7 kB/82.9 kB 35%]                                                                        584 kB/s 9s[0m[33m70% [Waiting for headers]                                                                                   584 kB/s 9s[0m                                                                                                                       Get:91 http://archive.ubuntu.com/ubuntu jammy-updates/universe amd64 git-email all 1:2.34.1-1ubuntu1.15 [33.8 kB]
+[33m70% [91 git-email 8192 B/33.8 kB 24%]                                                                       584 kB/s 9s[0m[33m71% [Working]                                                                                               584 kB/s 9s[0m                                                                                                                       Get:92 http://archive.ubuntu.com/ubuntu jammy/main amd64 libtcl8.6 amd64 8.6.12+dfsg-1build1 [990 kB]
+[33m71% [92 libtcl8.6 20.5 kB/990 kB 2%]                                                                        584 kB/s 9s[0m[33m75% [Waiting for headers]                                                                                   584 kB/s 7s[0m                                                                                                                       Get:93 http://archive.ubuntu.com/ubuntu jammy/main amd64 libxft2 amd64 2.3.4-1 [41.8 kB]
+[33m75% [93 libxft2 28.7 kB/41.8 kB 69%]                                                                        584 kB/s 7s[0m[33m75% [Waiting for headers]                                                                                   584 kB/s 7s[0m                                                                                                                       Get:94 http://archive.ubuntu.com/ubuntu jammy/main amd64 libxss1 amd64 1:1.2.3-1build2 [8476 B]
+[33m75% [94 libxss1 8476 B/8476 B 100%]                                                                         584 kB/s 7s[0m[33m75% [Working]                                                                                               584 kB/s 7s[0m                                                                                                                       Get:95 http://archive.ubuntu.com/ubuntu jammy/main amd64 libtk8.6 amd64 8.6.12-1build1 [784 kB]
+[33m75% [95 libtk8.6 2604 B/784 kB 0%]                                                                          584 kB/s 7s[0m[33m78% [Working]                                                                                               584 kB/s 6s[0m                                                                                                                       Get:96 http://archive.ubuntu.com/ubuntu jammy/main amd64 tk8.6 amd64 8.6.12-1build1 [12.8 kB]
+[33m78% [96 tk8.6 12.8 kB/12.8 kB 100%]                                                                         584 kB/s 6s[0m[33m78% [Waiting for headers]                                                                                   584 kB/s 6s[0m                                                                                                                       Get:97 http://archive.ubuntu.com/ubuntu jammy/main amd64 tcl8.6 amd64 8.6.12+dfsg-1build1 [15.0 kB]
+[33m78% [97 tcl8.6 15.0 kB/15.0 kB 100%]                                                                        584 kB/s 6s[0m[33m79% [Waiting for headers]                                                                                   584 kB/s 6s[0m                                                                                                                       Get:98 http://archive.ubuntu.com/ubuntu jammy/main amd64 tcl amd64 8.6.11+1build2 [4678 B]
+[33m79% [98 tcl 4678 B/4678 B 100%]                                                                             584 kB/s 6s[0m[33m79% [Working]                                                                                               584 kB/s 6s[0m                                                                                                                       Get:99 http://archive.ubuntu.com/ubuntu jammy/main amd64 tk amd64 8.6.11+1build2 [3058 B]
+[33m79% [99 tk 3058 B/3058 B 100%]                                                                              584 kB/s 6s[0m[33m79% [Waiting for headers]                                                                                   584 kB/s 6s[0m                                                                                                                       Get:100 http://archive.ubuntu.com/ubuntu jammy-updates/universe amd64 git-gui all 1:2.34.1-1ubuntu1.15 [229 kB]
+[33m79% [100 git-gui 57.3 kB/229 kB 25%]                                                                        584 kB/s 5s[0m[33m80% [Waiting for headers]                                                                                   584 kB/s 5s[0m                                                                                                                       Get:101 http://archive.ubuntu.com/ubuntu jammy-updates/universe amd64 gitk all 1:2.34.1-1ubuntu1.15 [146 kB]
+[33m80% [101 gitk 28.7 kB/146 kB 20%]                                                                           839 kB/s 3s[0m[33m81% [Waiting for headers]                                                                                   839 kB/s 3s[0m                                                                                                                       Get:102 http://archive.ubuntu.com/ubuntu jammy/main amd64 libcgi-pm-perl all 4.54-1 [188 kB]
+[33m81% [102 libcgi-pm-perl 12.3 kB/188 kB 7%]                                                                  839 kB/s 3s[0m[33m81% [Working]                                                                                               839 kB/s 3s[0m                                                                                                                       Get:103 http://archive.ubuntu.com/ubuntu jammy-updates/universe amd64 gitweb all 1:2.34.1-1ubuntu1.15 [9712 B]
+[33m81% [103 gitweb 9712 B/9712 B 100%]                                                                         839 kB/s 3s[0m[33m82% [Working]                                                                                               839 kB/s 3s[0m                                                                                                                       Get:104 http://archive.ubuntu.com/ubuntu jammy-updates/universe amd64 git-all all 1:2.34.1-1ubuntu1.15 [6296 B]
+[33m82% [Waiting for headers]                                                                                   839 kB/s 3s[0m                                                                                                                       Get:105 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libfcgi0ldbl amd64 2.4.2-2ubuntu0.1 [28.1 kB]
+[33m82% [105 libfcgi0ldbl 28.1 kB/28.1 kB 100%]                                                                 839 kB/s 3s[0m[33m82% [Working]                                                                                               839 kB/s 3s[0m                                                                                                                       Get:106 http://archive.ubuntu.com/ubuntu jammy/main amd64 libfcgi-perl amd64 0.82+ds-1build1 [22.8 kB]
+[33m82% [106 libfcgi-perl 22.8 kB/22.8 kB 100%]                                                                 839 kB/s 3s[0m[33m82% [Waiting for headers]                                                                                   839 kB/s 3s[0m                                                                                                                       Get:107 http://archive.ubuntu.com/ubuntu jammy/main amd64 libcgi-fast-perl all 1:2.15-1 [10.5 kB]
+[33m82% [107 libcgi-fast-perl 8192 B/10.5 kB 78%]                                                               839 kB/s 3s[0m[33m82% [Working]                                                                                               839 kB/s 3s[0m                                                                                                                       Get:108 http://archive.ubuntu.com/ubuntu jammy/universe amd64 libclass-c3-xs-perl amd64 0.15-1build2 [16.7 kB]
+[33m83% [Waiting for headers]                                                                                   839 kB/s 3s[0m                                                                                                                       Get:109 http://archive.ubuntu.com/ubuntu jammy/main amd64 libclass-xsaccessor-perl amd64 1.19-3build9 [34.1 kB]
+[33m83% [109 libclass-xsaccessor-perl 34.1 kB/34.1 kB 100%]                                                     839 kB/s 3s[0m[33m83% [Waiting for headers]                                                                                   839 kB/s 3s[0m                                                                                                                       Get:110 http://archive.ubuntu.com/ubuntu jammy/main amd64 libclone-perl amd64 0.45-1build3 [11.0 kB]
+[33m83% [Waiting for headers]                                                                                   839 kB/s 3s[0m                                                                                                                       Get:111 http://archive.ubuntu.com/ubuntu jammy/main amd64 libcommon-sense-perl amd64 3.75-2build1 [21.1 kB]
+[33m83% [111 libcommon-sense-perl 21.1 kB/21.1 kB 100%]                                                         839 kB/s 3s[0m[33m83% [Working]                                                                                               839 kB/s 3s[0m                                                                                                                       Get:112 http://archive.ubuntu.com/ubuntu jammy/main amd64 libdata-dump-perl all 1.25-1 [25.9 kB]
+[33m83% [112 libdata-dump-perl 25.9 kB/25.9 kB 100%]                                                            839 kB/s 3s[0m[33m83% [Working]                                                                                               839 kB/s 3s[0m                                                                                                                       Get:113 http://archive.ubuntu.com/ubuntu jammy/universe amd64 libpadwalker-perl amd64 2.5-1build2 [15.9 kB]
+[33m83% [113 libpadwalker-perl 4096 B/15.9 kB 26%]                                                              839 kB/s 3s[0m[33m84% [Working]                                                                                               839 kB/s 3s[0m                                                                                                                       Get:114 http://archive.ubuntu.com/ubuntu jammy/universe amd64 libdevel-caller-perl amd64 2.06-2build4 [11.1 kB]
+[33m84% [114 libdevel-caller-perl 11.1 kB/11.1 kB 100%]                                                         839 kB/s 3s[0m[33m84% [Waiting for headers]                                                                                   839 kB/s 3s[0m                                                                                                                       Get:115 http://archive.ubuntu.com/ubuntu jammy/universe amd64 libdevel-lexalias-perl amd64 0.05-2build4 [9070 B]
+[33m84% [115 libdevel-lexalias-perl 9070 B/9070 B 100%]                                                         839 kB/s 3s[0m[33m84% [Waiting for headers]                                                                                   839 kB/s 3s[0m                                                                                                                       Get:116 http://archive.ubuntu.com/ubuntu jammy/main amd64 libdigest-bubblebabble-perl all 0.02-2.1 [7160 B]
+[33m84% [116 libdigest-bubblebabble-perl 7160 B/7160 B 100%]                                                    839 kB/s 3s[0m[33m84% [Working]                                                                                               839 kB/s 3s[0m                                                                                                                       Get:117 http://archive.ubuntu.com/ubuntu jammy/main amd64 libdigest-hmac-perl all 1.04+dfsg-1 [10.8 kB]
+[33m84% [117 libdigest-hmac-perl 10.8 kB/10.8 kB 100%]                                                          839 kB/s 3s[0m[33m84% [Waiting for headers]                                                                                   839 kB/s 3s[0m                                                                                                                       Get:118 http://archive.ubuntu.com/ubuntu jammy/main amd64 libnet-smtp-ssl-perl all 1.04-1 [5948 B]
+[33m84% [118 libnet-smtp-ssl-perl 5948 B/5948 B 100%]                                                           839 kB/s 3s[0m[33m84% [Working]                                                                                               839 kB/s 3s[0m                                                                                                                       Get:119 http://archive.ubuntu.com/ubuntu jammy/main amd64 libmailtools-perl all 2.21-1 [80.7 kB]
+[33m84% [119 libmailtools-perl 0 B/80.7 kB 0%]                                                                  839 kB/s 3s[0m[33m85% [Waiting for headers]                                                                                   839 kB/s 3s[0m                                                                                                                       Get:120 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libnet-ip-perl all 1.26-2ubuntu0.22.04.1 [28.5 kB]
+[33m85% [120 libnet-ip-perl 28.5 kB/28.5 kB 100%]                                                               839 kB/s 3s[0m[33m85% [Waiting for headers]                                                                                   839 kB/s 3s[0m                                                                                                                       Get:121 http://archive.ubuntu.com/ubuntu jammy/main amd64 libnet-dns-perl all 1.33-1 [350 kB]
+[33m85% [121 libnet-dns-perl 65.2 kB/350 kB 19%]                                                                839 kB/s 3s[0m[33m87% [Waiting for headers]                                                                                   839 kB/s 2s[0m                                                                                                                       Get:122 http://archive.ubuntu.com/ubuntu jammy/main amd64 libnet-domain-tld-perl all 1.75-1.1 [29.3 kB]
+[33m87% [122 libnet-domain-tld-perl 29.3 kB/29.3 kB 100%]                                                       839 kB/s 2s[0m[33m87% [Working]                                                                                               839 kB/s 2s[0m                                                                                                                       Get:123 http://archive.ubuntu.com/ubuntu jammy/universe amd64 libemail-valid-perl all 1.202-1 [16.3 kB]
+[33m87% [123 libemail-valid-perl 16.3 kB/16.3 kB 100%]                                                          839 kB/s 2s[0m[33m87% [Waiting for headers]                                                                                   839 kB/s 2s[0m                                                                                                                       Get:124 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libfcgi-bin amd64 2.4.2-2ubuntu0.1 [11.1 kB]
+[33m87% [124 libfcgi-bin 11.1 kB/11.1 kB 100%]                                                                  839 kB/s 2s[0m[33m87% [Waiting for headers]                                                                                   839 kB/s 2s[0m                                                                                                                       Get:125 http://archive.ubuntu.com/ubuntu jammy/main amd64 libfont-afm-perl all 1.20-3 [13.6 kB]
+[33m87% [125 libfont-afm-perl 13.6 kB/13.6 kB 100%]                                                             839 kB/s 2s[0m[33m87% [Working]                                                                                               839 kB/s 2s[0m                                                                                                                       Get:126 http://archive.ubuntu.com/ubuntu jammy/main amd64 libfontenc1 amd64 1:1.1.4-1build3 [14.7 kB]
+[33m87% [126 libfontenc1 14.7 kB/14.7 kB 100%]                                                                  839 kB/s 2s[0m[33m88% [Working]                                                                                               839 kB/s 2s[0m                                                                                                                       Get:127 http://archive.ubuntu.com/ubuntu jammy/main amd64 libhtml-form-perl all 6.07-1 [22.2 kB]
+[33m88% [127 libhtml-form-perl 22.2 kB/22.2 kB 100%]                                                            839 kB/s 2s[0m[33m88% [Working]                                                                                               839 kB/s 2s[0m                                                                                                                       Get:128 http://archive.ubuntu.com/ubuntu jammy/main amd64 libhtml-format-perl all 2.12-1.1 [41.3 kB]
+[33m88% [128 libhtml-format-perl 41.3 kB/41.3 kB 100%]                                                          839 kB/s 2s[0m[33m88% [Working]                                                                                               839 kB/s 2s[0m                                                                                                                       Get:129 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libhttp-daemon-perl all 6.13-1ubuntu0.1 [22.9 kB]
+[33m88% [129 libhttp-daemon-perl 22.9 kB/22.9 kB 100%]                                                          839 kB/s 2s[0m[33m88% [Waiting for headers]                                                                                   839 kB/s 2s[0m                                                                                                                       Get:130 http://archive.ubuntu.com/ubuntu jammy/main amd64 libice6 amd64 2:1.0.10-1build2 [42.6 kB]
+[33m88% [130 libice6 4096 B/42.6 kB 10%]                                                                       195 kB/s 10s[0m[33m89% [Waiting for headers]                                                                                  195 kB/s 10s[0m                                                                                                                       Get:131 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libidn12 amd64 1.38-4ubuntu1 [60.0 kB]
+[33m89% [131 libidn12 60.0 kB/60.0 kB 100%]                                                                    195 kB/s 10s[0m[33m89% [Working]                                                                                              195 kB/s 10s[0m                                                                                                                       Get:132 http://archive.ubuntu.com/ubuntu jammy/main amd64 libtypes-serialiser-perl all 1.01-1 [11.6 kB]
+[33m89% [132 libtypes-serialiser-perl 11.6 kB/11.6 kB 100%]                                                    195 kB/s 10s[0m[33m89% [Working]                                                                                              195 kB/s 10s[0m                                                                                                                       Get:133 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libjson-xs-perl amd64 4.040-0ubuntu0.22.04.1 [87.0 kB]
+[33m89% [133 libjson-xs-perl 61.4 kB/87.0 kB 71%]                                                               195 kB/s 9s[0m[33m90% [Waiting for headers]                                                                                   195 kB/s 9s[0m                                                                                                                       Get:134 http://archive.ubuntu.com/ubuntu jammy/main amd64 libnet-dns-sec-perl amd64 1.19-1build2 [44.5 kB]
+[33m90% [134 libnet-dns-sec-perl 32.1 kB/44.5 kB 72%]                                                           195 kB/s 9s[0m[33m90% [Waiting for headers]                                                                                   195 kB/s 9s[0m                                                                                                                       Get:135 http://archive.ubuntu.com/ubuntu jammy/main amd64 libnet-libidn-perl amd64 0.12.ds-3build6 [18.4 kB]
+[33m90% [135 libnet-libidn-perl 18.4 kB/18.4 kB 100%]                                                           195 kB/s 9s[0m[33m90% [Waiting for headers]                                                                                   195 kB/s 9s[0m                                                                                                                       Get:136 http://archive.ubuntu.com/ubuntu jammy/main amd64 libpackage-stash-xs-perl amd64 0.29-1build5 [19.4 kB]
+[33m90% [Waiting for headers]                                                                                   195 kB/s 9s[0m                                                                                                                       Get:137 http://archive.ubuntu.com/ubuntu jammy/main amd64 libperl4-corelibs-perl all 0.004-2 [37.4 kB]
+[33m90% [137 libperl4-corelibs-perl 12.3 kB/37.4 kB 33%]                                                        195 kB/s 9s[0m[33m91% [Working]                                                                                               195 kB/s 9s[0m                                                                                                                       Get:138 http://archive.ubuntu.com/ubuntu jammy/main amd64 libreadonly-perl all 2.050-3 [19.9 kB]
+[33m91% [138 libreadonly-perl 19.9 kB/19.9 kB 100%]                                                             195 kB/s 9s[0m[33m91% [Waiting for headers]                                                                                   195 kB/s 9s[0m                                                                                                                       Get:139 http://archive.ubuntu.com/ubuntu jammy/main amd64 libref-util-perl all 0.204-1 [15.0 kB]
+[33m91% [139 libref-util-perl 15.0 kB/15.0 kB 100%]                                                             195 kB/s 9s[0m[33m91% [Working]                                                                                               195 kB/s 9s[0m                                                                                                                       Get:140 http://archive.ubuntu.com/ubuntu jammy/main amd64 libref-util-xs-perl amd64 0.117-1build5 [12.7 kB]
+[33m91% [140 libref-util-xs-perl 0 B/12.7 kB 0%]                                                                195 kB/s 9s[0m[33m91% [Working]                                                                                               195 kB/s 8s[0m                                                                                                                       Get:141 http://archive.ubuntu.com/ubuntu jammy/main amd64 libsm6 amd64 2:1.2.3-1build2 [16.7 kB]
+[33m91% [141 libsm6 4096 B/16.7 kB 24%]                                                                         195 kB/s 8s[0m[33m91% [Waiting for headers]                                                                                   195 kB/s 8s[0m                                                                                                                       Get:142 http://archive.ubuntu.com/ubuntu jammy/main amd64 libxt6 amd64 1:1.2.1-1 [177 kB]
+[33m92% [142 libxt6 42.4 kB/177 kB 24%]                                                                         195 kB/s 8s[0m[33m92% [Working]                                                                                               195 kB/s 7s[0m                                                                                                                       Get:143 http://archive.ubuntu.com/ubuntu jammy/main amd64 libxmu6 amd64 2:1.1.3-3 [49.6 kB]
+[33m92% [143 libxmu6 45.1 kB/49.6 kB 91%]                                                                       195 kB/s 7s[0m[33m93% [Working]                                                                                               195 kB/s 7s[0m                                                                                                                       Get:144 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libxpm4 amd64 1:3.5.12-1ubuntu0.22.04.2 [36.7 kB]
+[33m93% [144 libxpm4 36.7 kB/36.7 kB 100%]                                                                      195 kB/s 7s[0m[33m93% [Waiting for headers]                                                                                   195 kB/s 7s[0m                                                                                                                       Get:145 http://archive.ubuntu.com/ubuntu jammy/main amd64 libxaw7 amd64 2:1.0.14-1 [191 kB]
+[33m93% [145 libxaw7 40.9 kB/191 kB 21%]                                                                        195 kB/s 7s[0m[33m94% [Working]                                                                                               195 kB/s 6s[0m                                                                                                                       Get:146 http://archive.ubuntu.com/ubuntu jammy/main amd64 libxcb-shape0 amd64 1.14-3ubuntu3 [6158 B]
+[33m94% [146 libxcb-shape0 6158 B/6158 B 100%]                                                                  195 kB/s 6s[0m[33m94% [Working]                                                                                               195 kB/s 6s[0m                                                                                                                       Get:147 http://archive.ubuntu.com/ubuntu jammy/main amd64 libxkbfile1 amd64 1:1.1.0-1build3 [71.8 kB]
+[33m94% [147 libxkbfile1 14.2 kB/71.8 kB 20%]                                                                   195 kB/s 6s[0m[33m94% [Waiting for headers]                                                                                   195 kB/s 6s[0m                                                                                                                       Get:148 http://archive.ubuntu.com/ubuntu jammy/main amd64 libxv1 amd64 2:1.0.11-1build2 [11.2 kB]
+[33m94% [148 libxv1 11.2 kB/11.2 kB 100%]                                                                       195 kB/s 6s[0m[33m94% [Working]                                                                                               195 kB/s 6s[0m                                                                                                                       Get:149 http://archive.ubuntu.com/ubuntu jammy/main amd64 libxxf86dga1 amd64 2:1.1.5-0ubuntu3 [12.6 kB]
+[33m94% [149 libxxf86dga1 12.6 kB/12.6 kB 100%]                                                                 195 kB/s 6s[0m[33m95% [Waiting for headers]                                                                                   195 kB/s 6s[0m                                                                                                                       Get:150 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libyaml-libyaml-perl amd64 0.83+ds-1ubuntu0.22.04.1 [29.6 kB]
+[33m95% [150 libyaml-libyaml-perl 29.6 kB/29.6 kB 100%]                                                         195 kB/s 5s[0m[33m95% [Working]                                                                                               195 kB/s 5s[0m                                                                                                                       Get:151 http://archive.ubuntu.com/ubuntu jammy/main amd64 ssl-cert all 1.1.2 [17.4 kB]
+[33m95% [151 ssl-cert 12.3 kB/17.4 kB 71%]                                                                      195 kB/s 5s[0m[33m95% [Waiting for headers]                                                                                   195 kB/s 5s[0m                                                                                                                       Get:152 http://archive.ubuntu.com/ubuntu jammy/main amd64 x11-utils amd64 7.7+5build2 [206 kB]
+[33m95% [152 x11-utils 26.6 kB/206 kB 13%]                                                                      195 kB/s 5s[0m[33m96% [Working]                                                                                               195 kB/s 4s[0m                                                                                                                       Get:153 http://archive.ubuntu.com/ubuntu jammy/main amd64 xbitmaps all 1.1.1-2.1ubuntu1 [23.4 kB]
+[33m96% [153 xbitmaps 23.4 kB/23.4 kB 100%]                                                                     195 kB/s 4s[0m[33m96% [Waiting for headers]                                                                                   195 kB/s 4s[0m                                                                                                                       Get:154 http://archive.ubuntu.com/ubuntu jammy/universe amd64 xterm amd64 372-1ubuntu1 [857 kB]
+[33m96% [154 xterm 16.4 kB/857 kB 2%]                                                                           195 kB/s 4s[0m[33m100% [Waiting for headers]                                                                                  195 kB/s 0s[0m                                                                                                                       Get:155 http://archive.ubuntu.com/ubuntu jammy/main amd64 libauthen-sasl-perl all 2.1600-1.1 [43.1 kB]
+[33m100% [155 libauthen-sasl-perl 32.8 kB/43.1 kB 76%]                                                          195 kB/s 0s[0m[33m100% [Working]                                                                                              195 kB/s 0s[0m                                                                                                                       Fetched 20.4 MB in 42s (489 kB/s)
+Extracting templates from packages: 19%Extracting templates from packages: 38%Extracting templates from packages: 58%Extracting templates from packages: 77%Extracting templates from packages: 96%Extracting templates from packages: 100%
+Preconfiguring packages ...
+
+7[0;29r8[1ASelecting previously unselected package libapr1:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 42578 files and directories currently installed.)
+Preparing to unpack .../000-libapr1_1.7.0-8ubuntu0.22.04.2_amd64.deb ...
+7[30;0f[42m[30mProgress: [  0%][49m[39m [..................................................................................................] 8Unpacking libapr1:amd64 (1.7.0-8ubuntu0.22.04.2) ...
+Selecting previously unselected package libaprutil1:amd64.
+Preparing to unpack .../001-libaprutil1_1.6.1-5ubuntu4.22.04.2_amd64.deb ...
+Unpacking libaprutil1:amd64 (1.6.1-5ubuntu4.22.04.2) ...
+Selecting previously unselected package libaprutil1-dbd-sqlite3:amd64.
+Preparing to unpack .../002-libaprutil1-dbd-sqlite3_1.6.1-5ubuntu4.22.04.2_amd64.deb ...
+Unpacking libaprutil1-dbd-sqlite3:amd64 (1.6.1-5ubuntu4.22.04.2) ...
+Selecting previously unselected package libaprutil1-ldap:amd64.
+Preparing to unpack .../003-libaprutil1-ldap_1.6.1-5ubuntu4.22.04.2_amd64.deb ...
+7[30;0f[42m[30mProgress: [  1%][49m[39m [#.................................................................................................] 8Unpacking libaprutil1-ldap:amd64 (1.6.1-5ubuntu4.22.04.2) ...
+Selecting previously unselected package liblua5.3-0:amd64.
+Preparing to unpack .../004-liblua5.3-0_5.3.6-1build1_amd64.deb ...
+Unpacking liblua5.3-0:amd64 (5.3.6-1build1) ...
+Selecting previously unselected package apache2-bin.
+Preparing to unpack .../005-apache2-bin_2.4.52-1ubuntu4.16_amd64.deb ...
+Unpacking apache2-bin (2.4.52-1ubuntu4.16) ...
+Selecting previously unselected package apache2-data.
+Preparing to unpack .../006-apache2-data_2.4.52-1ubuntu4.16_all.deb ...
+7[30;0f[42m[30mProgress: [  2%][49m[39m [##................................................................................................] 8Unpacking apache2-data (2.4.52-1ubuntu4.16) ...
+Selecting previously unselected package apache2-utils.
+Preparing to unpack .../007-apache2-utils_2.4.52-1ubuntu4.16_amd64.deb ...
+Unpacking apache2-utils (2.4.52-1ubuntu4.16) ...
+Selecting previously unselected package mailcap.
+Preparing to unpack .../008-mailcap_3.70+nmu1ubuntu1_all.deb ...
+Unpacking mailcap (3.70+nmu1ubuntu1) ...
+Selecting previously unselected package mime-support.
+Preparing to unpack .../009-mime-support_3.66_all.deb ...
+7[30;0f[42m[30mProgress: [  3%][49m[39m [##................................................................................................] 8Unpacking mime-support (3.66) ...
+Selecting previously unselected package apache2.
+Preparing to unpack .../010-apache2_2.4.52-1ubuntu4.16_amd64.deb ...
+Unpacking apache2 (2.4.52-1ubuntu4.16) ...
+Selecting previously unselected package bzip2.
+Preparing to unpack .../011-bzip2_1.0.8-5build1_amd64.deb ...
+Unpacking bzip2 (1.0.8-5build1) ...
+Selecting previously unselected package cvs.
+Preparing to unpack .../012-cvs_2%3a1.12.13+real-28_amd64.deb ...
+7[30;0f[42m[30mProgress: [  4%][49m[39m [###...............................................................................................] 8Unpacking cvs (2:1.12.13+real-28) ...
+Selecting previously unselected package cvsps.
+Preparing to unpack .../013-cvsps_2.1-8build2_amd64.deb ...
+Unpacking cvsps (2.1-8build2) ...
+Selecting previously unselected package git-doc.
+Preparing to unpack .../014-git-doc_1%3a2.34.1-1ubuntu1.15_all.deb ...
+Unpacking git-doc (1:2.34.1-1ubuntu1.15) ...
+Selecting previously unselected package libdbi-perl:amd64.
+Preparing to unpack .../015-libdbi-perl_1.643-3build3_amd64.deb ...
+Unpacking libdbi-perl:amd64 (1.643-3build3) ...
+7[30;0f[42m[30mProgress: [  5%][49m[39m [#####.............................................................................................] 8Selecting previously unselected package libdbd-sqlite3-perl:amd64.
+Preparing to unpack .../016-libdbd-sqlite3-perl_1.70-3build1_amd64.deb ...
+Unpacking libdbd-sqlite3-perl:amd64 (1.70-3build1) ...
+Selecting previously unselected package git-cvs.
+Preparing to unpack .../017-git-cvs_1%3a2.34.1-1ubuntu1.15_all.deb ...
+Unpacking git-cvs (1:2.34.1-1ubuntu1.15) ...
+Selecting previously unselected package libjson-perl.
+Preparing to unpack .../018-libjson-perl_4.04000-1_all.deb ...
+Unpacking libjson-perl (4.04000-1) ...
+7[30;0f[42m[30mProgress: [  6%][49m[39m [#####.............................................................................................] 8Selecting previously unselected package libencode-locale-perl.
+Preparing to unpack .../019-libencode-locale-perl_1.05-1.1_all.deb ...
+Unpacking libencode-locale-perl (1.05-1.1) ...
+Selecting previously unselected package libtimedate-perl.
+Preparing to unpack .../020-libtimedate-perl_2.3300-2_all.deb ...
+Unpacking libtimedate-perl (2.3300-2) ...
+Selecting previously unselected package libhttp-date-perl.
+Preparing to unpack .../021-libhttp-date-perl_6.05-1_all.deb ...
+Unpacking libhttp-date-perl (6.05-1) ...
+7[30;0f[42m[30mProgress: [  7%][49m[39m [######............................................................................................] 8Selecting previously unselected package libfile-listing-perl.
+Preparing to unpack .../022-libfile-listing-perl_6.14-1_all.deb ...
+Unpacking libfile-listing-perl (6.14-1) ...
+Selecting previously unselected package libhtml-tagset-perl.
+Preparing to unpack .../023-libhtml-tagset-perl_3.20-4_all.deb ...
+Unpacking libhtml-tagset-perl (3.20-4) ...
+Selecting previously unselected package liburi-perl.
+Preparing to unpack .../024-liburi-perl_5.10-1_all.deb ...
+Unpacking liburi-perl (5.10-1) ...
+7[30;0f[42m[30mProgress: [  8%][49m[39m [#######...........................................................................................] 8Selecting previously unselected package libhtml-parser-perl:amd64.
+Preparing to unpack .../025-libhtml-parser-perl_3.76-1build2_amd64.deb ...
+Unpacking libhtml-parser-perl:amd64 (3.76-1build2) ...
+Selecting previously unselected package libhtml-tree-perl.
+Preparing to unpack .../026-libhtml-tree-perl_5.07-2_all.deb ...
+Unpacking libhtml-tree-perl (5.07-2) ...
+Selecting previously unselected package libio-html-perl.
+Preparing to unpack .../027-libio-html-perl_1.004-2_all.deb ...
+Unpacking libio-html-perl (1.004-2) ...
+7[30;0f[42m[30mProgress: [  9%][49m[39m [########..........................................................................................] 8Selecting previously unselected package liblwp-mediatypes-perl.
+Preparing to unpack .../028-liblwp-mediatypes-perl_6.04-1_all.deb ...
+Unpacking liblwp-mediatypes-perl (6.04-1) ...
+Selecting previously unselected package libhttp-message-perl.
+Preparing to unpack .../029-libhttp-message-perl_6.36-1_all.deb ...
+Unpacking libhttp-message-perl (6.36-1) ...
+Selecting previously unselected package libhttp-cookies-perl.
+Preparing to unpack .../030-libhttp-cookies-perl_6.10-1_all.deb ...
+Unpacking libhttp-cookies-perl (6.10-1) ...
+Selecting previously unselected package libhttp-negotiate-perl.
+Preparing to unpack .../031-libhttp-negotiate-perl_6.01-1_all.deb ...
+7[30;0f[42m[30mProgress: [ 10%][49m[39m [#########.........................................................................................] 8Unpacking libhttp-negotiate-perl (6.01-1) ...
+Selecting previously unselected package perl-openssl-defaults:amd64.
+Preparing to unpack .../032-perl-openssl-defaults_5build2_amd64.deb ...
+Unpacking perl-openssl-defaults:amd64 (5build2) ...
+Selecting previously unselected package libnet-ssleay-perl:amd64.
+Preparing to unpack .../033-libnet-ssleay-perl_1.92-1build2_amd64.deb ...
+Unpacking libnet-ssleay-perl:amd64 (1.92-1build2) ...
+Selecting previously unselected package libio-socket-ssl-perl.
+Preparing to unpack .../034-libio-socket-ssl-perl_2.074-2_all.deb ...
+7[30;0f[42m[30mProgress: [ 11%][49m[39m [##########........................................................................................] 8Unpacking libio-socket-ssl-perl (2.074-2) ...
+Selecting previously unselected package libnet-http-perl.
+Preparing to unpack .../035-libnet-http-perl_6.22-1_all.deb ...
+Unpacking libnet-http-perl (6.22-1) ...
+Selecting previously unselected package liblwp-protocol-https-perl.
+Preparing to unpack .../036-liblwp-protocol-https-perl_6.10-1_all.deb ...
+Unpacking liblwp-protocol-https-perl (6.10-1) ...
+Selecting previously unselected package libtry-tiny-perl.
+Preparing to unpack .../037-libtry-tiny-perl_0.31-1_all.deb ...
+7[30;0f[42m[30mProgress: [ 12%][49m[39m [###########.......................................................................................] 8Unpacking libtry-tiny-perl (0.31-1) ...
+Selecting previously unselected package libwww-robotrules-perl.
+Preparing to unpack .../038-libwww-robotrules-perl_6.02-1_all.deb ...
+Unpacking libwww-robotrules-perl (6.02-1) ...
+Selecting previously unselected package libwww-perl.
+Preparing to unpack .../039-libwww-perl_6.61-1_all.deb ...
+Unpacking libwww-perl (6.61-1) ...
+Selecting previously unselected package libmediawiki-api-perl.
+Preparing to unpack .../040-libmediawiki-api-perl_0.52-1_all.deb ...
+7[30;0f[42m[30mProgress: [ 13%][49m[39m [############......................................................................................] 8Unpacking libmediawiki-api-perl (0.52-1) ...
+Selecting previously unselected package libclass-inspector-perl.
+Preparing to unpack .../041-libclass-inspector-perl_1.36-1_all.deb ...
+Unpacking libclass-inspector-perl (1.36-1) ...
+Selecting previously unselected package libfile-sharedir-perl.
+Preparing to unpack .../042-libfile-sharedir-perl_1.118-1_all.deb ...
+Unpacking libfile-sharedir-perl (1.118-1) ...
+Selecting previously unselected package libb-hooks-op-check-perl.
+Preparing to unpack .../043-libb-hooks-op-check-perl_0.22-1build5_amd64.deb ...
+7[30;0f[42m[30mProgress: [ 14%][49m[39m [#############.....................................................................................] 8Unpacking libb-hooks-op-check-perl (0.22-1build5) ...
+Selecting previously unselected package libdynaloader-functions-perl.
+Preparing to unpack .../044-libdynaloader-functions-perl_0.003-1.1_all.deb ...
+Unpacking libdynaloader-functions-perl (0.003-1.1) ...
+Selecting previously unselected package libdevel-callchecker-perl.
+Preparing to unpack .../045-libdevel-callchecker-perl_0.008-1ubuntu4_amd64.deb ...
+Unpacking libdevel-callchecker-perl (0.008-1ubuntu4) ...
+Selecting previously unselected package libparams-classify-perl.
+Preparing to unpack .../046-libparams-classify-perl_0.015-1build5_amd64.deb ...
+Unpacking libparams-classify-perl (0.015-1build5) ...
+7[30;0f[42m[30mProgress: [ 15%][49m[39m [##############....................................................................................] 8Selecting previously unselected package libmodule-runtime-perl.
+Preparing to unpack .../047-libmodule-runtime-perl_0.016-1_all.deb ...
+Unpacking libmodule-runtime-perl (0.016-1) ...
+Selecting previously unselected package libmodule-implementation-perl.
+Preparing to unpack .../048-libmodule-implementation-perl_0.09-1.1_all.deb ...
+Unpacking libmodule-implementation-perl (0.09-1.1) ...
+Selecting previously unselected package libsub-exporter-progressive-perl.
+Preparing to unpack .../049-libsub-exporter-progressive-perl_0.001013-1_all.deb ...
+Unpacking libsub-exporter-progressive-perl (0.001013-1) ...
+7[30;0f[42m[30mProgress: [ 16%][49m[39m [###############...................................................................................] 8Selecting previously unselected package libvariable-magic-perl.
+Preparing to unpack .../050-libvariable-magic-perl_0.62-1build5_amd64.deb ...
+Unpacking libvariable-magic-perl (0.62-1build5) ...
+Selecting previously unselected package libb-hooks-endofscope-perl.
+Preparing to unpack .../051-libb-hooks-endofscope-perl_0.25-1_all.deb ...
+Unpacking libb-hooks-endofscope-perl (0.25-1) ...
+Selecting previously unselected package libpackage-stash-perl.
+Preparing to unpack .../052-libpackage-stash-perl_0.39-1_all.deb ...
+Unpacking libpackage-stash-perl (0.39-1) ...
+7[30;0f[42m[30mProgress: [ 17%][49m[39m [################..................................................................................] 8Selecting previously unselected package libsub-identify-perl.
+Preparing to unpack .../053-libsub-identify-perl_0.14-1build5_amd64.deb ...
+Unpacking libsub-identify-perl (0.14-1build5) ...
+Selecting previously unselected package libsub-name-perl.
+Preparing to unpack .../054-libsub-name-perl_0.26-1build3_amd64.deb ...
+Unpacking libsub-name-perl (0.26-1build3) ...
+Selecting previously unselected package libnamespace-clean-perl.
+Preparing to unpack .../055-libnamespace-clean-perl_0.27-1_all.deb ...
+Unpacking libnamespace-clean-perl (0.27-1) ...
+7[30;0f[42m[30mProgress: [ 18%][49m[39m [#################.................................................................................] 8Selecting previously unselected package libnamespace-autoclean-perl.
+Preparing to unpack .../056-libnamespace-autoclean-perl_0.29-1_all.deb ...
+Unpacking libnamespace-autoclean-perl (0.29-1) ...
+Selecting previously unselected package libparams-util-perl.
+Preparing to unpack .../057-libparams-util-perl_1.102-1build3_amd64.deb ...
+Unpacking libparams-util-perl (1.102-1build3) ...
+Selecting previously unselected package libsub-install-perl.
+Preparing to unpack .../058-libsub-install-perl_0.928-1.1_all.deb ...
+Unpacking libsub-install-perl (0.928-1.1) ...
+7[30;0f[42m[30mProgress: [ 19%][49m[39m [##################................................................................................] 8Selecting previously unselected package libdata-optlist-perl.
+Preparing to unpack .../059-libdata-optlist-perl_0.112-1_all.deb ...
+Unpacking libdata-optlist-perl (0.112-1) ...
+Selecting previously unselected package libsub-exporter-perl.
+Preparing to unpack .../060-libsub-exporter-perl_0.988-1_all.deb ...
+Unpacking libsub-exporter-perl (0.988-1) ...
+Selecting previously unselected package libeval-closure-perl.
+Preparing to unpack .../061-libeval-closure-perl_0.14-1_all.deb ...
+Unpacking libeval-closure-perl (0.14-1) ...
+Selecting previously unselected package libclass-data-inheritable-perl.
+Preparing to unpack .../062-libclass-data-inheritable-perl_0.08-3_all.deb ...
+7[30;0f[42m[30mProgress: [ 20%][49m[39m [###################...............................................................................] 8Unpacking libclass-data-inheritable-perl (0.08-3) ...
+Selecting previously unselected package libdevel-stacktrace-perl.
+Preparing to unpack .../063-libdevel-stacktrace-perl_2.0400-1_all.deb ...
+Unpacking libdevel-stacktrace-perl (2.0400-1) ...
+Selecting previously unselected package libexception-class-perl.
+Preparing to unpack .../064-libexception-class-perl_1.45-1_all.deb ...
+Unpacking libexception-class-perl (1.45-1) ...
+Selecting previously unselected package libparams-validationcompiler-perl.
+Preparing to unpack .../065-libparams-validationcompiler-perl_0.30-1_all.deb ...
+7[30;0f[42m[30mProgress: [ 21%][49m[39m [####################..............................................................................] 8Unpacking libparams-validationcompiler-perl (0.30-1) ...
+Selecting previously unselected package libalgorithm-c3-perl.
+Preparing to unpack .../066-libalgorithm-c3-perl_0.11-1_all.deb ...
+Unpacking libalgorithm-c3-perl (0.11-1) ...
+Selecting previously unselected package libclass-c3-perl.
+Preparing to unpack .../067-libclass-c3-perl_0.35-1_all.deb ...
+Unpacking libclass-c3-perl (0.35-1) ...
+Selecting previously unselected package libmro-compat-perl.
+Preparing to unpack .../068-libmro-compat-perl_0.15-1_all.deb ...
+7[30;0f[42m[30mProgress: [ 22%][49m[39m [#####################.............................................................................] 8Unpacking libmro-compat-perl (0.15-1) ...
+Selecting previously unselected package libclass-method-modifiers-perl.
+Preparing to unpack .../069-libclass-method-modifiers-perl_2.13-1_all.deb ...
+Unpacking libclass-method-modifiers-perl (2.13-1) ...
+Selecting previously unselected package librole-tiny-perl.
+Preparing to unpack .../070-librole-tiny-perl_2.002004-1_all.deb ...
+Unpacking librole-tiny-perl (2.002004-1) ...
+Selecting previously unselected package libsub-quote-perl.
+Preparing to unpack .../071-libsub-quote-perl_2.006006-1_all.deb ...
+7[30;0f[42m[30mProgress: [ 23%][49m[39m [######################............................................................................] 8Unpacking libsub-quote-perl (2.006006-1) ...
+Selecting previously unselected package libxstring-perl.
+Preparing to unpack .../072-libxstring-perl_0.005-1build2_amd64.deb ...
+Unpacking libxstring-perl (0.005-1build2) ...
+Selecting previously unselected package libspecio-perl.
+Preparing to unpack .../073-libspecio-perl_0.47-1_all.deb ...
+Unpacking libspecio-perl (0.47-1) ...
+Selecting previously unselected package libdatetime-locale-perl.
+Preparing to unpack .../074-libdatetime-locale-perl_1%3a1.33-1_all.deb ...
+Unpacking libdatetime-locale-perl (1:1.33-1) ...
+7[30;0f[42m[30mProgress: [ 24%][49m[39m [#######################...........................................................................] 8Selecting previously unselected package libclass-singleton-perl.
+Preparing to unpack .../075-libclass-singleton-perl_1.6-1_all.deb ...
+Unpacking libclass-singleton-perl (1.6-1) ...
+Selecting previously unselected package libdatetime-timezone-perl.
+Preparing to unpack .../076-libdatetime-timezone-perl_1%3a2.51-1+2021e_all.deb ...
+Unpacking libdatetime-timezone-perl (1:2.51-1+2021e) ...
+Selecting previously unselected package libdatetime-perl:amd64.
+Preparing to unpack .../077-libdatetime-perl_2%3a1.55-1build1_amd64.deb ...
+Unpacking libdatetime-perl:amd64 (2:1.55-1build1) ...
+7[30;0f[42m[30mProgress: [ 25%][49m[39m [########################..........................................................................] 8Selecting previously unselected package libdatetime-format-strptime-perl.
+Preparing to unpack .../078-libdatetime-format-strptime-perl_1.7900-1_all.deb ...
+Unpacking libdatetime-format-strptime-perl (1.7900-1) ...
+Selecting previously unselected package libparams-validate-perl:amd64.
+Preparing to unpack .../079-libparams-validate-perl_1.30-1build3_amd64.deb ...
+Unpacking libparams-validate-perl:amd64 (1.30-1build3) ...
+Selecting previously unselected package libdatetime-format-builder-perl.
+Preparing to unpack .../080-libdatetime-format-builder-perl_0.8300-1_all.deb ...
+Unpacking libdatetime-format-builder-perl (0.8300-1) ...
+7[30;0f[42m[30mProgress: [ 26%][49m[39m [#########################.........................................................................] 8Selecting previously unselected package libdatetime-format-iso8601-perl.
+Preparing to unpack .../081-libdatetime-format-iso8601-perl_0.16-1_all.deb ...
+Unpacking libdatetime-format-iso8601-perl (0.16-1) ...
+Selecting previously unselected package git-mediawiki.
+Preparing to unpack .../082-git-mediawiki_1%3a2.34.1-1ubuntu1.15_all.deb ...
+Unpacking git-mediawiki (1:2.34.1-1ubuntu1.15) ...
+Selecting previously unselected package libserf-1-1:amd64.
+Preparing to unpack .../083-libserf-1-1_1.3.9-10ubuntu2_amd64.deb ...
+Unpacking libserf-1-1:amd64 (1.3.9-10ubuntu2) ...
+7[30;0f[42m[30mProgress: [ 27%][49m[39m [##########################........................................................................] 8Selecting previously unselected package libutf8proc2:amd64.
+Preparing to unpack .../084-libutf8proc2_2.7.0-3_amd64.deb ...
+Unpacking libutf8proc2:amd64 (2.7.0-3) ...
+Selecting previously unselected package libsvn1:amd64.
+Preparing to unpack .../085-libsvn1_1.14.1-3ubuntu0.22.04.1_amd64.deb ...
+Unpacking libsvn1:amd64 (1.14.1-3ubuntu0.22.04.1) ...
+Selecting previously unselected package libsvn-perl:amd64.
+Preparing to unpack .../086-libsvn-perl_1.14.1-3ubuntu0.22.04.1_amd64.deb ...
+Unpacking libsvn-perl:amd64 (1.14.1-3ubuntu0.22.04.1) ...
+7[30;0f[42m[30mProgress: [ 28%][49m[39m [###########################.......................................................................] 8Selecting previously unselected package libyaml-perl.
+Preparing to unpack .../087-libyaml-perl_1.30-1_all.deb ...
+Unpacking libyaml-perl (1.30-1) ...
+Selecting previously unselected package libterm-readkey-perl.
+Preparing to unpack .../088-libterm-readkey-perl_2.38-1build4_amd64.deb ...
+Unpacking libterm-readkey-perl (2.38-1build4) ...
+Selecting previously unselected package git-svn.
+Preparing to unpack .../089-git-svn_1%3a2.34.1-1ubuntu1.15_all.deb ...
+Unpacking git-svn (1:2.34.1-1ubuntu1.15) ...
+Selecting previously unselected package git-email.
+Preparing to unpack .../090-git-email_1%3a2.34.1-1ubuntu1.15_all.deb ...
+7[30;0f[42m[30mProgress: [ 29%][49m[39m [############################......................................................................] 8Unpacking git-email (1:2.34.1-1ubuntu1.15) ...
+Selecting previously unselected package libtcl8.6:amd64.
+Preparing to unpack .../091-libtcl8.6_8.6.12+dfsg-1build1_amd64.deb ...
+Unpacking libtcl8.6:amd64 (8.6.12+dfsg-1build1) ...
+Selecting previously unselected package libxft2:amd64.
+Preparing to unpack .../092-libxft2_2.3.4-1_amd64.deb ...
+Unpacking libxft2:amd64 (2.3.4-1) ...
+Selecting previously unselected package libxss1:amd64.
+Preparing to unpack .../093-libxss1_1%3a1.2.3-1build2_amd64.deb ...
+7[30;0f[42m[30mProgress: [ 30%][49m[39m [#############################.....................................................................] 8Unpacking libxss1:amd64 (1:1.2.3-1build2) ...
+Selecting previously unselected package libtk8.6:amd64.
+Preparing to unpack .../094-libtk8.6_8.6.12-1build1_amd64.deb ...
+Unpacking libtk8.6:amd64 (8.6.12-1build1) ...
+Selecting previously unselected package tk8.6.
+Preparing to unpack .../095-tk8.6_8.6.12-1build1_amd64.deb ...
+Unpacking tk8.6 (8.6.12-1build1) ...
+Selecting previously unselected package tcl8.6.
+Preparing to unpack .../096-tcl8.6_8.6.12+dfsg-1build1_amd64.deb ...
+7[30;0f[42m[30mProgress: [ 31%][49m[39m [##############################....................................................................] 8Unpacking tcl8.6 (8.6.12+dfsg-1build1) ...
+Selecting previously unselected package tcl.
+Preparing to unpack .../097-tcl_8.6.11+1build2_amd64.deb ...
+Unpacking tcl (8.6.11+1build2) ...
+Selecting previously unselected package tk.
+Preparing to unpack .../098-tk_8.6.11+1build2_amd64.deb ...
+Unpacking tk (8.6.11+1build2) ...
+Selecting previously unselected package git-gui.
+Preparing to unpack .../099-git-gui_1%3a2.34.1-1ubuntu1.15_all.deb ...
+7[30;0f[42m[30mProgress: [ 32%][49m[39m [###############################...................................................................] 8Unpacking git-gui (1:2.34.1-1ubuntu1.15) ...
+Selecting previously unselected package gitk.
+Preparing to unpack .../100-gitk_1%3a2.34.1-1ubuntu1.15_all.deb ...
+Unpacking gitk (1:2.34.1-1ubuntu1.15) ...
+Selecting previously unselected package libcgi-pm-perl.
+Preparing to unpack .../101-libcgi-pm-perl_4.54-1_all.deb ...
+Unpacking libcgi-pm-perl (4.54-1) ...
+Selecting previously unselected package gitweb.
+Preparing to unpack .../102-gitweb_1%3a2.34.1-1ubuntu1.15_all.deb ...
+7[30;0f[42m[30mProgress: [ 33%][49m[39m [################################..................................................................] 8Unpacking gitweb (1:2.34.1-1ubuntu1.15) ...
+Selecting previously unselected package git-all.
+Preparing to unpack .../103-git-all_1%3a2.34.1-1ubuntu1.15_all.deb ...
+Unpacking git-all (1:2.34.1-1ubuntu1.15) ...
+Selecting previously unselected package libfcgi0ldbl:amd64.
+Preparing to unpack .../104-libfcgi0ldbl_2.4.2-2ubuntu0.1_amd64.deb ...
+Unpacking libfcgi0ldbl:amd64 (2.4.2-2ubuntu0.1) ...
+Selecting previously unselected package libfcgi-perl:amd64.
+Preparing to unpack .../105-libfcgi-perl_0.82+ds-1build1_amd64.deb ...
+Unpacking libfcgi-perl:amd64 (0.82+ds-1build1) ...
+7[30;0f[42m[30mProgress: [ 34%][49m[39m [#################################.................................................................] 8Selecting previously unselected package libcgi-fast-perl.
+Preparing to unpack .../106-libcgi-fast-perl_1%3a2.15-1_all.deb ...
+Unpacking libcgi-fast-perl (1:2.15-1) ...
+Selecting previously unselected package libclass-c3-xs-perl.
+Preparing to unpack .../107-libclass-c3-xs-perl_0.15-1build2_amd64.deb ...
+Unpacking libclass-c3-xs-perl (0.15-1build2) ...
+Selecting previously unselected package libclass-xsaccessor-perl.
+Preparing to unpack .../108-libclass-xsaccessor-perl_1.19-3build9_amd64.deb ...
+Unpacking libclass-xsaccessor-perl (1.19-3build9) ...
+7[30;0f[42m[30mProgress: [ 35%][49m[39m [##################################................................................................] 8Selecting previously unselected package libclone-perl.
+Preparing to unpack .../109-libclone-perl_0.45-1build3_amd64.deb ...
+Unpacking libclone-perl (0.45-1build3) ...
+Selecting previously unselected package libcommon-sense-perl:amd64.
+Preparing to unpack .../110-libcommon-sense-perl_3.75-2build1_amd64.deb ...
+Unpacking libcommon-sense-perl:amd64 (3.75-2build1) ...
+Selecting previously unselected package libdata-dump-perl.
+Preparing to unpack .../111-libdata-dump-perl_1.25-1_all.deb ...
+Unpacking libdata-dump-perl (1.25-1) ...
+7[30;0f[42m[30mProgress: [ 36%][49m[39m [###################################...............................................................] 8Selecting previously unselected package libpadwalker-perl.
+Preparing to unpack .../112-libpadwalker-perl_2.5-1build2_amd64.deb ...
+Unpacking libpadwalker-perl (2.5-1build2) ...
+Selecting previously unselected package libdevel-caller-perl.
+Preparing to unpack .../113-libdevel-caller-perl_2.06-2build4_amd64.deb ...
+Unpacking libdevel-caller-perl (2.06-2build4) ...
+Selecting previously unselected package libdevel-lexalias-perl.
+Preparing to unpack .../114-libdevel-lexalias-perl_0.05-2build4_amd64.deb ...
+Unpacking libdevel-lexalias-perl (0.05-2build4) ...
+7[30;0f[42m[30mProgress: [ 37%][49m[39m [####################################..............................................................] 8Selecting previously unselected package libdigest-bubblebabble-perl.
+Preparing to unpack .../115-libdigest-bubblebabble-perl_0.02-2.1_all.deb ...
+Unpacking libdigest-bubblebabble-perl (0.02-2.1) ...
+Selecting previously unselected package libdigest-hmac-perl.
+Preparing to unpack .../116-libdigest-hmac-perl_1.04+dfsg-1_all.deb ...
+Unpacking libdigest-hmac-perl (1.04+dfsg-1) ...
+Selecting previously unselected package libnet-smtp-ssl-perl.
+Preparing to unpack .../117-libnet-smtp-ssl-perl_1.04-1_all.deb ...
+Unpacking libnet-smtp-ssl-perl (1.04-1) ...
+7[30;0f[42m[30mProgress: [ 38%][49m[39m [#####################################.............................................................] 8Selecting previously unselected package libmailtools-perl.
+Preparing to unpack .../118-libmailtools-perl_2.21-1_all.deb ...
+Unpacking libmailtools-perl (2.21-1) ...
+Selecting previously unselected package libnet-ip-perl.
+Preparing to unpack .../119-libnet-ip-perl_1.26-2ubuntu0.22.04.1_all.deb ...
+Unpacking libnet-ip-perl (1.26-2ubuntu0.22.04.1) ...
+Selecting previously unselected package libnet-dns-perl.
+Preparing to unpack .../120-libnet-dns-perl_1.33-1_all.deb ...
+Unpacking libnet-dns-perl (1.33-1) ...
+Selecting previously unselected package libnet-domain-tld-perl.
+Preparing to unpack .../121-libnet-domain-tld-perl_1.75-1.1_all.deb ...
+7[30;0f[42m[30mProgress: [ 39%][49m[39m [######################################............................................................] 8Unpacking libnet-domain-tld-perl (1.75-1.1) ...
+Selecting previously unselected package libemail-valid-perl.
+Preparing to unpack .../122-libemail-valid-perl_1.202-1_all.deb ...
+Unpacking libemail-valid-perl (1.202-1) ...
+Selecting previously unselected package libfcgi-bin.
+Preparing to unpack .../123-libfcgi-bin_2.4.2-2ubuntu0.1_amd64.deb ...
+Unpacking libfcgi-bin (2.4.2-2ubuntu0.1) ...
+Selecting previously unselected package libfont-afm-perl.
+Preparing to unpack .../124-libfont-afm-perl_1.20-3_all.deb ...
+7[30;0f[42m[30mProgress: [ 40%][49m[39m [#######################################...........................................................] 8Unpacking libfont-afm-perl (1.20-3) ...
+Selecting previously unselected package libfontenc1:amd64.
+Preparing to unpack .../125-libfontenc1_1%3a1.1.4-1build3_amd64.deb ...
+Unpacking libfontenc1:amd64 (1:1.1.4-1build3) ...
+Selecting previously unselected package libhtml-form-perl.
+Preparing to unpack .../126-libhtml-form-perl_6.07-1_all.deb ...
+Unpacking libhtml-form-perl (6.07-1) ...
+Selecting previously unselected package libhtml-format-perl.
+Preparing to unpack .../127-libhtml-format-perl_2.12-1.1_all.deb ...
+7[30;0f[42m[30mProgress: [ 41%][49m[39m [########################################..........................................................] 8Unpacking libhtml-format-perl (2.12-1.1) ...
+Selecting previously unselected package libhttp-daemon-perl.
+Preparing to unpack .../128-libhttp-daemon-perl_6.13-1ubuntu0.1_all.deb ...
+Unpacking libhttp-daemon-perl (6.13-1ubuntu0.1) ...
+Selecting previously unselected package libice6:amd64.
+Preparing to unpack .../129-libice6_2%3a1.0.10-1build2_amd64.deb ...
+Unpacking libice6:amd64 (2:1.0.10-1build2) ...
+Selecting previously unselected package libidn12:amd64.
+Preparing to unpack .../130-libidn12_1.38-4ubuntu1_amd64.deb ...
+7[30;0f[42m[30mProgress: [ 42%][49m[39m [#########################################.........................................................] 8Unpacking libidn12:amd64 (1.38-4ubuntu1) ...
+Selecting previously unselected package libtypes-serialiser-perl.
+Preparing to unpack .../131-libtypes-serialiser-perl_1.01-1_all.deb ...
+Unpacking libtypes-serialiser-perl (1.01-1) ...
+Selecting previously unselected package libjson-xs-perl.
+Preparing to unpack .../132-libjson-xs-perl_4.040-0ubuntu0.22.04.1_amd64.deb ...
+Unpacking libjson-xs-perl (4.040-0ubuntu0.22.04.1) ...
+Selecting previously unselected package libnet-dns-sec-perl.
+Preparing to unpack .../133-libnet-dns-sec-perl_1.19-1build2_amd64.deb ...
+Unpacking libnet-dns-sec-perl (1.19-1build2) ...
+7[30;0f[42m[30mProgress: [ 43%][49m[39m [##########################################........................................................] 8Selecting previously unselected package libnet-libidn-perl.
+Preparing to unpack .../134-libnet-libidn-perl_0.12.ds-3build6_amd64.deb ...
+Unpacking libnet-libidn-perl (0.12.ds-3build6) ...
+Selecting previously unselected package libpackage-stash-xs-perl.
+Preparing to unpack .../135-libpackage-stash-xs-perl_0.29-1build5_amd64.deb ...
+Unpacking libpackage-stash-xs-perl (0.29-1build5) ...
+Selecting previously unselected package libperl4-corelibs-perl.
+Preparing to unpack .../136-libperl4-corelibs-perl_0.004-2_all.deb ...
+Unpacking libperl4-corelibs-perl (0.004-2) ...
+7[30;0f[42m[30mProgress: [ 44%][49m[39m [###########################################.......................................................] 8Selecting previously unselected package libreadonly-perl.
+Preparing to unpack .../137-libreadonly-perl_2.050-3_all.deb ...
+Unpacking libreadonly-perl (2.050-3) ...
+Selecting previously unselected package libref-util-perl.
+Preparing to unpack .../138-libref-util-perl_0.204-1_all.deb ...
+Unpacking libref-util-perl (0.204-1) ...
+Selecting previously unselected package libref-util-xs-perl.
+Preparing to unpack .../139-libref-util-xs-perl_0.117-1build5_amd64.deb ...
+Unpacking libref-util-xs-perl (0.117-1build5) ...
+7[30;0f[42m[30mProgress: [ 45%][49m[39m [############################################......................................................] 8Selecting previously unselected package libsm6:amd64.
+Preparing to unpack .../140-libsm6_2%3a1.2.3-1build2_amd64.deb ...
+Unpacking libsm6:amd64 (2:1.2.3-1build2) ...
+Selecting previously unselected package libxt6:amd64.
+Preparing to unpack .../141-libxt6_1%3a1.2.1-1_amd64.deb ...
+Unpacking libxt6:amd64 (1:1.2.1-1) ...
+Selecting previously unselected package libxmu6:amd64.
+Preparing to unpack .../142-libxmu6_2%3a1.1.3-3_amd64.deb ...
+Unpacking libxmu6:amd64 (2:1.1.3-3) ...
+7[30;0f[42m[30mProgress: [ 46%][49m[39m [#############################################.....................................................] 8Selecting previously unselected package libxpm4:amd64.
+Preparing to unpack .../143-libxpm4_1%3a3.5.12-1ubuntu0.22.04.2_amd64.deb ...
+Unpacking libxpm4:amd64 (1:3.5.12-1ubuntu0.22.04.2) ...
+Selecting previously unselected package libxaw7:amd64.
+Preparing to unpack .../144-libxaw7_2%3a1.0.14-1_amd64.deb ...
+Unpacking libxaw7:amd64 (2:1.0.14-1) ...
+Selecting previously unselected package libxcb-shape0:amd64.
+Preparing to unpack .../145-libxcb-shape0_1.14-3ubuntu3_amd64.deb ...
+Unpacking libxcb-shape0:amd64 (1.14-3ubuntu3) ...
+7[30;0f[42m[30mProgress: [ 47%][49m[39m [##############################################....................................................] 8Selecting previously unselected package libxkbfile1:amd64.
+Preparing to unpack .../146-libxkbfile1_1%3a1.1.0-1build3_amd64.deb ...
+Unpacking libxkbfile1:amd64 (1:1.1.0-1build3) ...
+Selecting previously unselected package libxv1:amd64.
+Preparing to unpack .../147-libxv1_2%3a1.0.11-1build2_amd64.deb ...
+Unpacking libxv1:amd64 (2:1.0.11-1build2) ...
+Selecting previously unselected package libxxf86dga1:amd64.
+Preparing to unpack .../148-libxxf86dga1_2%3a1.1.5-0ubuntu3_amd64.deb ...
+Unpacking libxxf86dga1:amd64 (2:1.1.5-0ubuntu3) ...
+Selecting previously unselected package libyaml-libyaml-perl.
+Preparing to unpack .../149-libyaml-libyaml-perl_0.83+ds-1ubuntu0.22.04.1_amd64.deb ...
+7[30;0f[42m[30mProgress: [ 48%][49m[39m [###############################################...................................................] 8Unpacking libyaml-libyaml-perl (0.83+ds-1ubuntu0.22.04.1) ...
+Selecting previously unselected package ssl-cert.
+Preparing to unpack .../150-ssl-cert_1.1.2_all.deb ...
+Unpacking ssl-cert (1.1.2) ...
+Selecting previously unselected package x11-utils.
+Preparing to unpack .../151-x11-utils_7.7+5build2_amd64.deb ...
+Unpacking x11-utils (7.7+5build2) ...
+Selecting previously unselected package xbitmaps.
+Preparing to unpack .../152-xbitmaps_1.1.1-2.1ubuntu1_all.deb ...
+7[30;0f[42m[30mProgress: [ 49%][49m[39m [################################################..................................................] 8Unpacking xbitmaps (1.1.1-2.1ubuntu1) ...
+Selecting previously unselected package xterm.
+Preparing to unpack .../153-xterm_372-1ubuntu1_amd64.deb ...
+Unpacking xterm (372-1ubuntu1) ...
+Selecting previously unselected package libauthen-sasl-perl.
+Preparing to unpack .../154-libauthen-sasl-perl_2.1600-1.1_all.deb ...
+Unpacking libauthen-sasl-perl (2.1600-1.1) ...
+Setting up libice6:amd64 (2:1.0.10-1build2) ...
+7[30;0f[42m[30mProgress: [ 50%][49m[39m [#################################################.................................................] 8Setting up libxft2:amd64 (2.3.4-1) ...
+Setting up libxpm4:amd64 (1:3.5.12-1ubuntu0.22.04.2) ...
+Setting up libclass-inspector-perl (1.36-1) ...
+7[30;0f[42m[30mProgress: [ 51%][49m[39m [##################################################................................................] 8Setting up libfont-afm-perl (1.20-3) ...
+Setting up libdynaloader-functions-perl (0.003-1.1) ...
+Setting up libfcgi0ldbl:amd64 (2.4.2-2ubuntu0.1) ...
+7[30;0f[42m[30mProgress: [ 52%][49m[39m [##################################################................................................] 8Setting up libclass-method-modifiers-perl (2.13-1) ...
+Setting up libref-util-xs-perl (0.117-1build5) ...
+Setting up libclone-perl (0.45-1build3) ...
+7[30;0f[42m[30mProgress: [ 53%][49m[39m [####################################################..............................................] 8Setting up libsub-identify-perl (0.14-1build5) ...
+Setting up libhtml-tagset-perl (3.20-4) ...
+Setting up cvs (2:1.12.13+real-28) ...
+Allowing use of questionable username.
+Adding group `_cvsadmin' (GID 118) ...
+Done.
+7[30;0f[42m[30mProgress: [ 54%][49m[39m [#####################################################.............................................] 8Setting up libauthen-sasl-perl (2.1600-1.1) ...
+Setting up libutf8proc2:amd64 (2.7.0-3) ...
+Setting up libperl4-corelibs-perl (0.004-2) ...
+7[30;0f[42m[30mProgress: [ 55%][49m[39m [#####################################################.............................................] 8Setting up liblwp-mediatypes-perl (6.04-1) ...
+Setting up libyaml-libyaml-perl (0.83+ds-1ubuntu0.22.04.1) ...
+Setting up libxcb-shape0:amd64 (1.14-3ubuntu3) ...
+7[30;0f[42m[30mProgress: [ 56%][49m[39m [######################################################............................................] 8Setting up libfcgi-bin (2.4.2-2ubuntu0.1) ...
+Setting up libtry-tiny-perl (0.31-1) ...
+Setting up libxxf86dga1:amd64 (2:1.1.5-0ubuntu3) ...
+7[30;0f[42m[30mProgress: [ 57%][49m[39m [#######################################################...........................................] 8Setting up libapr1:amd64 (1.7.0-8ubuntu0.22.04.2) ...
+Setting up perl-openssl-defaults:amd64 (5build2) ...
+Setting up libcommon-sense-perl:amd64 (3.75-2build1) ...
+Setting up libclass-singleton-perl (1.6-1) ...
+7[30;0f[42m[30mProgress: [ 58%][49m[39m [########################################################..........................................] 8Setting up libpadwalker-perl (2.5-1build2) ...
+Setting up libencode-locale-perl (1.05-1.1) ...
+Setting up libxstring-perl (0.005-1build2) ...
+7[30;0f[42m[30mProgress: [ 59%][49m[39m [#########################################################.........................................] 8Setting up git-doc (1:2.34.1-1ubuntu1.15) ...
+Setting up bzip2 (1.0.8-5build1) ...
+Setting up libyaml-perl (1.30-1) ...
+7[30;0f[42m[30mProgress: [ 60%][49m[39m [##########################################################........................................] 8Setting up libclass-c3-xs-perl (0.15-1build2) ...
+Setting up libdevel-caller-perl (2.06-2build4) ...
+Setting up libsub-install-perl (0.928-1.1) ...
+7[30;0f[42m[30mProgress: [ 61%][49m[39m [###########################################################.......................................] 8Setting up libreadonly-perl (2.050-3) ...
+Setting up libdevel-lexalias-perl (0.05-2build4) ...
+Setting up libfontenc1:amd64 (1:1.1.4-1build3) ...
+7[30;0f[42m[30mProgress: [ 62%][49m[39m [############################################################......................................] 8Setting up libpackage-stash-xs-perl (0.29-1build5) ...
+Setting up libclass-data-inheritable-perl (0.08-3) ...
+Setting up libalgorithm-c3-perl (0.11-1) ...
+7[30;0f[42m[30mProgress: [ 63%][49m[39m [#############################################################.....................................] 8Setting up libdata-dump-perl (1.25-1) ...
+Setting up libdigest-hmac-perl (1.04+dfsg-1) ...
+Setting up libref-util-perl (0.204-1) ...
+7[30;0f[42m[30mProgress: [ 64%][49m[39m [##############################################################....................................] 8Setting up ssl-cert (1.1.2) ...
+Setting up libnet-domain-tld-perl (1.75-1.1) ...
+Setting up libxv1:amd64 (2:1.0.11-1build2) ...
+7[30;0f[42m[30mProgress: [ 65%][49m[39m [###############################################################...................................] 8Setting up libvariable-magic-perl (0.62-1build5) ...
+Setting up libidn12:amd64 (1.38-4ubuntu1) ...
+Setting up libio-html-perl (1.004-2) ...
+7[30;0f[42m[30mProgress: [ 66%][49m[39m [################################################################..................................] 8Setting up libtcl8.6:amd64 (8.6.12+dfsg-1build1) ...
+Setting up libb-hooks-op-check-perl (0.22-1build5) ...
+Setting up libparams-util-perl (1.102-1build3) ...
+Setting up libsub-exporter-progressive-perl (0.001013-1) ...
+7[30;0f[42m[30mProgress: [ 67%][49m[39m [#################################################################.................................] 8Setting up libtimedate-perl (2.3300-2) ...
+Setting up libsub-name-perl (0.26-1build3) ...
+Setting up libtypes-serialiser-perl (1.01-1) ...
+7[30;0f[42m[30mProgress: [ 68%][49m[39m [##################################################################................................] 8Setting up git-email (1:2.34.1-1ubuntu1.15) ...
+Setting up liblua5.3-0:amd64 (5.3.6-1build1) ...
+Setting up libjson-perl (4.04000-1) ...
+7[30;0f[42m[30mProgress: [ 69%][49m[39m [###################################################################...............................] 8Setting up librole-tiny-perl (2.002004-1) ...
+Setting up libfile-sharedir-perl (1.118-1) ...
+Setting up libfcgi-perl:amd64 (0.82+ds-1build1) ...
+7[30;0f[42m[30mProgress: [ 70%][49m[39m [####################################################################..............................] 8Setting up libsub-quote-perl (2.006006-1) ...
+Setting up libdevel-stacktrace-perl (2.0400-1) ...
+Setting up libclass-xsaccessor-perl (1.19-3build9) ...
+7[30;0f[42m[30mProgress: [ 71%][49m[39m [#####################################################################.............................] 8Setting up apache2-data (2.4.52-1ubuntu4.16) ...
+Setting up libxss1:amd64 (1:1.2.3-1build2) ...
+Setting up libxkbfile1:amd64 (1:1.1.0-1build3) ...
+7[30;0f[42m[30mProgress: [ 72%][49m[39m [######################################################################............................] 8Setting up cvsps (2.1-8build2) ...
+Setting up libterm-readkey-perl (2.38-1build4) ...
+Setting up libnet-ip-perl (1.26-2ubuntu0.22.04.1) ...
+7[30;0f[42m[30mProgress: [ 73%][49m[39m [#######################################################################...........................] 8Setting up mailcap (3.70+nmu1ubuntu1) ...
+Setting up libsm6:amd64 (2:1.2.3-1build2) ...
+Setting up liburi-perl (5.10-1) ...
+7[30;0f[42m[30mProgress: [ 74%][49m[39m [########################################################################..........................] 8Setting up xbitmaps (1.1.1-2.1ubuntu1) ...
+Setting up libdbi-perl:amd64 (1.643-3build3) ...
+Setting up libaprutil1:amd64 (1.6.1-5ubuntu4.22.04.2) ...
+7[30;0f[42m[30mProgress: [ 75%][49m[39m [#########################################################################.........................] 8Setting up libdigest-bubblebabble-perl (0.02-2.1) ...
+Setting up libnet-ssleay-perl:amd64 (1.92-1build2) ...
+Setting up libjson-xs-perl (4.040-0ubuntu0.22.04.1) ...
+7[30;0f[42m[30mProgress: [ 76%][49m[39m [##########################################################################........................] 8Setting up libhttp-date-perl (6.05-1) ...
+Setting up tcl8.6 (8.6.12+dfsg-1build1) ...
+Setting up libfile-listing-perl (6.14-1) ...
+Setting up mime-support (3.66) ...
+7[30;0f[42m[30mProgress: [ 77%][49m[39m [###########################################################################.......................] 8Setting up libtk8.6:amd64 (8.6.12-1build1) ...
+Setting up libserf-1-1:amd64 (1.3.9-10ubuntu2) ...
+Setting up libnet-http-perl (6.22-1) ...
+7[30;0f[42m[30mProgress: [ 78%][49m[39m [############################################################################......................] 8Setting up libnet-dns-perl (1.33-1) ...
+Setting up libexception-class-perl (1.45-1) ...
+Setting up libaprutil1-ldap:amd64 (1.6.1-5ubuntu4.22.04.2) ...
+7[30;0f[42m[30mProgress: [ 79%][49m[39m [#############################################################################.....................] 8Setting up libclass-c3-perl (0.35-1) ...
+Setting up libaprutil1-dbd-sqlite3:amd64 (1.6.1-5ubuntu4.22.04.2) ...
+Setting up libdevel-callchecker-perl (0.008-1ubuntu4) ...
+7[30;0f[42m[30mProgress: [ 80%][49m[39m [##############################################################################....................] 8Setting up libnet-libidn-perl (0.12.ds-3build6) ...
+Setting up libdata-optlist-perl (0.112-1) ...
+Setting up libxt6:amd64 (1:1.2.1-1) ...
+7[30;0f[42m[30mProgress: [ 81%][49m[39m [###############################################################################...................] 8Setting up libwww-robotrules-perl (6.02-1) ...
+Setting up libhtml-parser-perl:amd64 (3.76-1build2) ...
+Setting up tcl (8.6.11+1build2) ...
+7[30;0f[42m[30mProgress: [ 82%][49m[39m [################################################################################..................] 8Setting up libdbd-sqlite3-perl:amd64 (1.70-3build1) ...
+Setting up libmro-compat-perl (0.15-1) ...
+Setting up libsvn1:amd64 (1.14.1-3ubuntu0.22.04.1) ...
+7[30;0f[42m[30mProgress: [ 83%][49m[39m [#################################################################################.................] 8Setting up libio-socket-ssl-perl (2.074-2) ...
+Setting up libsub-exporter-perl (0.988-1) ...
+Setting up libhttp-message-perl (6.36-1) ...
+7[30;0f[42m[30mProgress: [ 84%][49m[39m [##################################################################################................] 8Setting up apache2-utils (2.4.52-1ubuntu4.16) ...
+Setting up libeval-closure-perl (0.14-1) ...
+Setting up libhtml-form-perl (6.07-1) ...
+7[30;0f[42m[30mProgress: [ 85%][49m[39m [###################################################################################...............] 8Setting up tk8.6 (8.6.12-1build1) ...
+Setting up libhttp-negotiate-perl (6.01-1) ...
+Setting up libparams-validationcompiler-perl (0.30-1) ...
+Setting up libsvn-perl:amd64 (1.14.1-3ubuntu0.22.04.1) ...
+7[30;0f[42m[30mProgress: [ 86%][49m[39m [####################################################################################..............] 8Setting up libxmu6:amd64 (2:1.1.3-3) ...
+Setting up git-cvs (1:2.34.1-1ubuntu1.15) ...
+Setting up libhttp-cookies-perl (6.10-1) ...
+7[30;0f[42m[30mProgress: [ 87%][49m[39m [#####################################################################################.............] 8Setting up libhtml-tree-perl (5.07-2) ...
+Setting up libparams-classify-perl (0.015-1build5) ...
+Setting up libcgi-pm-perl (4.54-1) ...
+7[30;0f[42m[30mProgress: [ 88%][49m[39m [######################################################################################............] 8Setting up libnet-dns-sec-perl (1.19-1build2) ...
+Setting up libhtml-format-perl (2.12-1.1) ...
+Setting up git-svn (1:2.34.1-1ubuntu1.15) ...
+7[30;0f[42m[30mProgress: [ 89%][49m[39m [#######################################################################################...........] 8Setting up libxaw7:amd64 (2:1.0.14-1) ...
+Setting up apache2-bin (2.4.52-1ubuntu4.16) ...
+Setting up libnet-smtp-ssl-perl (1.04-1) ...
+7[30;0f[42m[30mProgress: [ 90%][49m[39m [########################################################################################..........] 8Setting up libmodule-runtime-perl (0.016-1) ...
+Setting up libmailtools-perl (2.21-1) ...
+Setting up libhttp-daemon-perl (6.13-1ubuntu0.1) ...
+7[30;0f[42m[30mProgress: [ 91%][49m[39m [#########################################################################################.........] 8Setting up x11-utils (7.7+5build2) ...
+Setting up gitweb (1:2.34.1-1ubuntu1.15) ...
+Package apache2 is not configured yet. Will defer actions by package gitweb.
+Setting up xterm (372-1ubuntu1) ...
+update-alternatives: using /usr/bin/xterm to provide /usr/bin/x-terminal-emulator (x-terminal-emulator) in auto mode
+update-alternatives: using /usr/bin/lxterm to provide /usr/bin/x-terminal-emulator (x-terminal-emulator) in auto mode
+7[30;0f[42m[30mProgress: [ 92%][49m[39m [##########################################################################################........] 8Setting up tk (8.6.11+1build2) ...
+Setting up git-gui (1:2.34.1-1ubuntu1.15) ...
+Setting up libmodule-implementation-perl (0.09-1.1) ...
+7[30;0f[42m[30mProgress: [ 93%][49m[39m [###########################################################################################.......] 8Setting up libemail-valid-perl (1.202-1) ...
+Setting up libcgi-fast-perl (1:2.15-1) ...
+Setting up libpackage-stash-perl (0.39-1) ...
+7[30;0f[42m[30mProgress: [ 94%][49m[39m [############################################################################################......] 8Setting up apache2 (2.4.52-1ubuntu4.16) ...
+Enabling module mpm_event.
+Enabling module authz_core.
+Enabling module authz_host.
+Enabling module authn_core.
+Enabling module auth_basic.
+Enabling module access_compat.
+Enabling module authn_file.
+Enabling module authz_user.
+Enabling module alias.
+Enabling module dir.
+Enabling module autoindex.
+Enabling module env.
+Enabling module mime.
+Enabling module negotiation.
+Enabling module setenvif.
+Enabling module filter.
+Enabling module deflate.
+Enabling module status.
+Enabling module reqtimeout.
+Enabling conf charset.
+Enabling conf localized-error-pages.
+Enabling conf other-vhosts-access-log.
+Enabling conf security.
+Enabling conf serve-cgi-bin.
+Enabling site 000-default.
+info: Executing deferred 'a2enconf gitweb' for package gitweb
+Enabling conf gitweb.
+Created symlink /etc/systemd/system/multi-user.target.wants/apache2.service → /lib/systemd/system/apache2.service.
+Created symlink /etc/systemd/system/multi-user.target.wants/apache-htcacheclean.service → /lib/systemd/system/apache-htcacheclean.service.
+Setting up gitk (1:2.34.1-1ubuntu1.15) ...
+Setting up libspecio-perl (0.47-1) ...
+7[30;0f[42m[30mProgress: [ 95%][49m[39m [#############################################################################################.....] 8Setting up libparams-validate-perl:amd64 (1.30-1build3) ...
+Setting up libb-hooks-endofscope-perl (0.25-1) ...
+Setting up libnamespace-clean-perl (0.27-1) ...
+Setting up libnamespace-autoclean-perl (0.29-1) ...
+7[30;0f[42m[30mProgress: [ 96%][49m[39m [##############################################################################################....] 8Setting up libdatetime-locale-perl (1:1.33-1) ...
+Setting up libdatetime-timezone-perl (1:2.51-1+2021e) ...
+Setting up libdatetime-perl:amd64 (2:1.55-1build1) ...
+7[30;0f[42m[30mProgress: [ 97%][49m[39m [###############################################################################################...] 8Setting up libdatetime-format-strptime-perl (1.7900-1) ...
+Setting up libdatetime-format-builder-perl (0.8300-1) ...
+Setting up libdatetime-format-iso8601-perl (0.16-1) ...
+7[30;0f[42m[30mProgress: [ 98%][49m[39m [################################################################################################..] 8Setting up liblwp-protocol-https-perl (6.10-1) ...
+Setting up libwww-perl (6.61-1) ...
+Setting up libmediawiki-api-perl (0.52-1) ...
+7[30;0f[42m[30mProgress: [ 99%][49m[39m [#################################################################################################.] 8Setting up git-mediawiki (1:2.34.1-1ubuntu1.15) ...
+Setting up git-all (1:2.34.1-1ubuntu1.15) ...
+Processing triggers for install-info (6.8-4build1) ...
+Processing triggers for hicolor-icon-theme (0.17-2) ...
+Processing triggers for libc-bin (2.35-0ubuntu3.8) ...
+Processing triggers for ufw (0.36.1-4ubuntu0.1) ...
+Processing triggers for man-db (2.10.2-1) ...
+
+7[0;30r8[1A[J[?2004h(base) ]0;nagesh@TIGER07005: ~[01;32mnagesh@TIGER07005[00m:[01;34m~[00m$ [7mgit --version[27mgit --version
+[?2004lgit version 2.34.1
+[?2004h(base) ]0;nagesh@TIGER07005: ~[01;32mnagesh@TIGER07005[00m:[01;34m~[00m$ [7mgit config user.name[27mgit config user.name
+[?2004l[?2004h(base) ]0;nagesh@TIGER07005: ~[01;32mnagesh@TIGER07005[00m:[01;34m~[00m$ mkdir sample_folder[K[K[K[K[K[K[K[K[K[K[K[K[Kpythoncode[K[K[K[K[K[K[K[K[K[Kfirstproject
+[?2004l[?2004h(base) ]0;nagesh@TIGER07005: ~[01;32mnagesh@TIGER07005[00m:[01;34m~[00m$ cd firstproject
+[?2004l[?2004h(base) ]0;nagesh@TIGER07005: ~/firstproject[01;32mnagesh@TIGER07005[00m:[01;34m~/firstproject[00m$ nano hello.py
+[?2004l[?2004h[?1049h[22;0;0t[1;30r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[28;55H(B[0;7m[ New File ](B[m[H(B[0;7m  GNU nano 6.2                                            hello.py                                                      [1;119H(B[m[29d(B[0;7m^G(B[m Help[29;16H(B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut[29;61H(B[0;7m^T(B[m Execute     (B[0;7m^C(B[m Location    (B[0;7mM-U(B[m Undo[106G(B[0;7mM-A(B[m Set Mark[30d(B[0;7m^X(B[m Exit[30;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste[61G(B[0;7m^J(B[m Justify     (B[0;7m^/(B[m Go To Line  (B[0;7mM-E(B[m Redo[106G(B[0;7mM-6(B[m Copy[2d[?12l[?25h[?25l[1;68H(B[0;7m*[119G(B[m[?12l[?25h[2dp[?25l[?12l[?25hr[?25l[?12l[?25hi[?25l[?12l[?25hn[?25l[?12l[?25h(B[0;1m[36mprint[39m(B[m[?25l[?12l[?25hprint([?25l[?12l[?25h"[?25l[?12l[?25hH[?25l[?12l[?25he[?25l[?12l[?25hl[?25l[?12l[?25hl[?25l[?12l[?25ho[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h W[?25l[?12l[?25ho[?25l[?12l[?25hr[?25l[?12l[?25hl[?25l[?12l[?25hd[?25l[?12l[?25h[7G(B[0;1m[32m"Hello World"[39m(B[m[?25l[28d[K[?12l[?25h[2;20H)[?25l[29;16H[15X[29;31H(B[0;7mM-D(B[m DOS Format       [29;61H(B[0;7mM-A(B[m Append[16X[29;93H(B[0;7mB(B[m Backup File[K[30;2H(B[0;7mC(B[m Cancel[16G[15X[30;31H(B[0;7mM-M(B[m Mac Format         [61G(B[0;7mM-P(B[m Prepend[19X[30;91H(B[0;7m^T(B[m Browse[K[28d(B[0;7mFile Name to Write: hello.py                                                                                            [28;29H(B[m[?12l[?25h[?25l[28;53H[1K (B[0;7m[ Writing... ](B[m[K[1;68H(B[0;7m [119G(B[m[28;53H(B[0;7m[ Wrote 1 line ](B[m[29;16H(B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut[29;61H(B[0;7m^T(B[m Execute     (B[0;7m^C(B[m Location[93G(B[0;7mU(B[m Undo       (B[0;7mM-A(B[m Set Mark[30;2H(B[0;7mX(B[m Exit  [16G(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste[61G(B[0;7m^J(B[m Justify     (B[0;7m^/(B[m Go To Line  (B[0;7mM-E(B[m Redo [106G(B[0;7mM-6(B[m Copy[?12l[?25h[2;21H[?25l[28d[J[30d[?12l[?25h[30;1H[?1049l[23;0;0t[?1l>[?2004l[?2004h(base) ]0;nagesh@TIGER07005: ~/firstproject[01;32mnagesh@TIGER07005[00m:[01;34m~/firstproject[00m$ LS
+[?2004lLS: command not found
+[?2004h(base) ]0;nagesh@TIGER07005: ~/firstproject[01;32mnagesh@TIGER07005[00m:[01;34m~/firstproject[00m$ ls
+[?2004lhello.py
+[?2004h(base) ]0;nagesh@TIGER07005: ~/firstproject[01;32mnagesh@TIGER07005[00m:[01;34m~/firstproject[00m$ git init
+[?2004l[33mhint: Using 'master' as the name for the initial branch. This default branch name[m
+[33mhint: is subject to change. To configure the initial branch name to use in all[m
+[33mhint: of your new repositories, which will suppress this warning, call:[m
+[33mhint: [m
+[33mhint: 	git config --global init.defaultBranch <name>[m
+[33mhint: [m
+[33mhint: Names commonly chosen instead of 'master' are 'main', 'trunk' and[m
+[33mhint: 'development'. The just-created branch can be renamed via this command:[m
+[33mhint: [m
+[33mhint: 	git branch -m <name>[m
+Initialized empty Git repository in /home/nagesh/firstproject/.git/
+[?2004h(base) ]0;nagesh@TIGER07005: ~/firstproject[01;32mnagesh@TIGER07005[00m:[01;34m~/firstproject[00m$ git add hello.py
+[?2004l[?2004h(base) ]0;nagesh@TIGER07005: ~/firstproject[01;32mnagesh@TIGER07005[00m:[01;34m~/firstproject[00m$ git commit -m "Initial commit with hello world"
+[?2004lAuthor identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: empty ident name (for <nagesh@TIGER07005.tigeranalytics.local>) not allowed
+[?2004h(base) ]0;nagesh@TIGER07005: ~/firstproject[01;32mnagesh@TIGER07005[00m:[01;34m~/firstproject[00m$ git remote add [7mhttps://github.com/nageshperumandla/Git_Session.git[27mhttps://github.com/nageshperumandla/Git_Session.gitohttps://github.com/nageshperumandla/Git_Session.gitrhttps://github.com/nageshperumandla/Git_Session.gitihttps://github.com/nageshperumandla/Git_Session.gitghttps://github.com/nageshperumandla/Git_Session.gitihttps://github.com/nageshperumandla/Git_Session.gitnhttps://github.com/nageshperumandla/Git_Session.git https://github.com/nageshperumandla/Git_Session.git
+[?2004l[?2004h(base) ]0;nagesh@TIGER07005: ~/firstproject[01;32mnagesh@TIGER07005[00m:[01;34m~/firstproject[00m$ git branch -M main
+[?2004l[?2004h(base) ]0;nagesh@TIGER07005: ~/firstproject[01;32mnagesh@TIGER07005[00m:[01;34m~/firstproject[00m$ git push -u origin main
+[?2004lerror: src refspec main does not match any
+[31merror: failed to push some refs to 'https://github.com/nageshperumandla/Git_Session.git'
+[m[?2004h(base) ]0;nagesh@TIGER07005: ~/firstproject[01;32mnagesh@TIGER07005[00m:[01;34m~/firstproject[00m$ git push -u origin main --fi[Korce
+[?2004lerror: src refspec main does not match any
+[31merror: failed to push some refs to 'https://github.com/nageshperumandla/Git_Session.git'
+[m[?2004h(base) ]0;nagesh@TIGER07005: ~/firstproject[01;32mnagesh@TIGER07005[00m:[01;34m~/firstproject[00m$ git branch
+[?2004l[?1h=[K[?1l>[?2004h(base) ]0;nagesh@TIGER07005: ~/firstproject[01;32mnagesh@TIGER07005[00m:[01;34m~/firstproject[00m$ git branch -M main
+[?2004l[?2004h(base) ]0;nagesh@TIGER07005: ~/firstproject[01;32mnagesh@TIGER07005[00m:[01;34m~/firstproject[00m$ git branch -M main[Kpush -u origin main --force[K[5Pbranch -M[C[C[C[C[Cremote add origin https://github.com/nageshperumandla/Git_Session.git
+[?2004lerror: remote origin already exists.
+[?2004h(base) ]0;nagesh@TIGER07005: ~/firstproject[01;32mnagesh@TIGER07005[00m:[01;34m~/firstproject[00m$ git remote add origin https://github.com/nageshperumandla/Git_Session.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cbranch -M main[K[Kpush -u origin main --force[K[K[K[K[K[K[K[K
+[?2004lerror: src refspec main does not match any
+[31merror: failed to push some refs to 'https://github.com/nageshperumandla/Git_Session.git'
+[m[?2004h(base) ]0;nagesh@TIGER07005: ~/firstproject[01;32mnagesh@TIGER07005[00m:[01;34m~/firstproject[00m$ ls
+[?2004lhello.py
+[?2004h(base) ]0;nagesh@TIGER07005: ~/firstproject[01;32mnagesh@TIGER07005[00m:[01;34m~/firstproject[00m$ lsgit push -u origin mainremote add origin https://github.com/nageshperumandla/Git_Session.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cbranch -M main[K[Kpush -u origin main --force[K[5Pbranch -M[C[C[C[C[Cremote add origin https://github.com/nageshperumandla/Git_Session.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[26Pcommit -m "Initial commit with hello world"add hello.py[K
+[?2004l[?2004h(base) ]0;nagesh@TIGER07005: ~/firstproject[01;32mnagesh@TIGER07005[00m:[01;34m~/firstproject[00m$ git add hello.pyls[Kgit push -u origin mainremote add origin https://github.com/nageshperumandla/Git_Session.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cbranch -M main[K[Kpush -u origin main --force[K[5Pbranch -M[C[C[C[C[Cremote add origin https://github.com/nageshperumandla/Git_Session.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[26Pcommit -m "Initial commit with hello world"
+[?2004lAuthor identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: empty ident name (for <nagesh@TIGER07005.tigeranalytics.local>) not allowed
+[?2004h(base) ]0;nagesh@TIGER07005: ~/firstproject[01;32mnagesh@TIGER07005[00m:[01;34m~/firstproject[00m$ [7mgit config --global user.name "Your Name"[27mgit config --global user.name "Your Name"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"n"a"g"e"s"h"
+[?2004l[?2004h(base) ]0;nagesh@TIGER07005: ~/firstproject[01;32mnagesh@TIGER07005[00m:[01;34m~/firstproject[00m$ git config --global user.name "nagesh"mmit -m "Initial commit with hello world"
+[?2004l[main (root-commit) c1cad68] Initial commit with hello world
+ Committer: nagesh <nagesh@TIGER07005.tigeranalytics.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 1 insertion(+)
+ create mode 100644 hello.py
+[?2004h(base) ]0;nagesh@TIGER07005: ~/firstproject[01;32mnagesh@TIGER07005[00m:[01;34m~/firstproject[00m$ git commit -m "Initial commit with hello world"[9Pnfig --global user.name "nagesh"mmit -m "Initial commit with hello world"add hello.py[Kls[Kgit add hello.pycommit -m "Initial commit with hello world"[9Pnfig --global user.name "nagesh"mmit -m "Initial commit with hello world"add hello.py[Kls[Kgit push -u origin main
+[?2004lUsername for 'https://github.com': nagesh
+Password for 'https://nagesh@github.com': 
+remote: Invalid username or token. Password authentication is not supported for Git operations.
+fatal: Authentication failed for 'https://github.com/nageshperumandla/Git_Session.git/'
+[?2004h(base) ]0;nagesh@TIGER07005: ~/firstproject[01;32mnagesh@TIGER07005[00m:[01;34m~/firstproject[00m$ git push -u origin main
+[?2004lUsername for 'https://github.com': nagesh.permandla @tigeranalytics.com
+Password for 'https://nagesh.permandl@tigeranalytics.com@github.com': 
+remote: Invalid username or token. Password authentication is not supported for Git operations.
+fatal: Authentication failed for 'https://github.com/nageshperumandla/Git_Session.git/'
+[?2004h(base) ]0;nagesh@TIGER07005: ~/firstproject[01;32mnagesh@TIGER07005[00m:[01;34m~/firstproject[00m$ git push -u origin main
+[?2004lUsername for 'https://github.com': nageshperumandla
+Password for 'https://nageshperumandla@github.com': 
+remote: Invalid username or token. Password authentication is not supported for Git operations.
+fatal: Authentication failed for 'https://github.com/nageshperumandla/Git_Session.git/'
+[?2004h(base) ]0;nagesh@TIGER07005: ~/firstproject[01;32mnagesh@TIGER07005[00m:[01;34m~/firstproject[00m$ git push -u origin maincommit -m "Initial commit with hello world"[24Ppush -u origin main
+[?2004lUsername for 'https://github.com': nageshperumandla
+Password for 'https://nageshperumandla@github.com': 
+remote: Invalid username or token. Password authentication is not supported for Git operations.
+fatal: Authentication failed for 'https://github.com/nageshperumandla/Git_Session.git/'
+[?2004h(base) ]0;nagesh@TIGER07005: ~/firstproject[01;32mnagesh@TIGER07005[00m:[01;34m~/firstproject[00m$ git push -u origin maincommit -m "Initial commit with hello world"[24Ppush -u origin main
+[?2004lUsername for 'https://github.com': nageshperumandla
+Password for 'https://nageshperumandla@github.com': 
+remote: Invalid username or token. Password authentication is not supported for Git operations.
+fatal: Authentication failed for 'https://github.com/nageshperumandla/Git_Session.git/'
+[?2004h(base) ]0;nagesh@TIGER07005: ~/firstproject[01;32mnagesh@TIGER07005[00m:[01;34m~/firstproject[00m$ git push -u origin main
+[?2004lUsername for 'https://github.com': nageshperumandla
+Password for 'https://nageshperumandla@github.com': 
+remote: invalid credentials
+fatal: Authentication failed for 'https://github.com/nageshperumandla/Git_Session.git/'
+[?2004h(base) ]0;nagesh@TIGER07005: ~/firstproject[01;32mnagesh@TIGER07005[00m:[01;34m~/firstproject[00m$ git push -u origin main
+[?2004lUsername for 'https://github.com': nageshperumandla
+Password for 'https://nageshperumandla@github.com': 
+To https://github.com/nageshperumandla/Git_Session.git
+ [31m! [rejected]       [m main -> main (fetch first)
+[31merror: failed to push some refs to 'https://github.com/nageshperumandla/Git_Session.git'
+[m[33mhint: Updates were rejected because the remote contains work that you do[m
+[33mhint: not have locally. This is usually caused by another repository pushing[m
+[33mhint: to the same ref. You may want to first integrate the remote changes[m
+[33mhint: (e.g., 'git pull ...') before pushing again.[m
+[33mhint: See the 'Note about fast-forwards' in 'git push --help' for details.[m
+[?2004h(base) ]0;nagesh@TIGER07005: ~/firstproject[01;32mnagesh@TIGER07005[00m:[01;34m~/firstproject[00m$ git pull origin main --rebase
+[?2004lremote: Enumerating objects: 3, done.[K
+remote: Counting objects:  33% (1/3)[Kremote: Counting objects:  66% (2/3)[Kremote: Counting objects: 100% (3/3)[Kremote: Counting objects: 100% (3/3), done.[K
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)[K
+Unpacking objects:  33% (1/3)Unpacking objects:  66% (2/3)Unpacking objects: 100% (3/3)Unpacking objects: 100% (3/3), 870 bytes | 217.00 KiB/s, done.
+From https://github.com/nageshperumandla/Git_Session
+ * branch            main       -> FETCH_HEAD
+ * [new branch]      main       -> origin/main
+Rebasing (1/1)[KSuccessfully rebased and updated refs/heads/main.
+[?2004h(base) ]0;nagesh@TIGER07005: ~/firstproject[01;32mnagesh@TIGER07005[00m:[01;34m~/firstproject[00m$ git pull origin main --rebase[6Psh -u origin main
+[?2004lUsername for 'https://github.com': nageshperumandla
+Password for 'https://nageshperumandla@github.com': 
+Enumerating objects: 4, done.
+Counting objects:  25% (1/4)Counting objects:  50% (2/4)Counting objects:  75% (3/4)Counting objects: 100% (4/4)Counting objects: 100% (4/4), done.
+Delta compression using up to 14 threads
+Compressing objects:  50% (1/2)Compressing objects: 100% (2/2)Compressing objects: 100% (2/2), done.
+Writing objects:  33% (1/3)Writing objects:  66% (2/3)Writing objects: 100% (3/3)Writing objects: 100% (3/3), 328 bytes | 164.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/nageshperumandla/Git_Session.git
+   2c41c52..f5d3571  main -> main
+Branch 'main' set up to track remote branch 'main' from 'origin'.
+[?2004h(base) ]0;nagesh@TIGER07005: ~/firstproject[01;32mnagesh@TIGER07005[00m:[01;34m~/firstproject[00m$ [7mgit status[27mgit status
+[?2004lOn branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+[?2004h(base) ]0;nagesh@TIGER07005: ~/firstproject[01;32mnagesh@TIGER07005[00m:[01;34m~/firstproject[00m$ [7mgit add README[27mgit add README
+[?2004lfatal: pathspec 'README' did not match any files
+[?2004h(base) ]0;nagesh@TIGER07005: ~/firstproject[01;32mnagesh@TIGER07005[00m:[01;34m~/firstproject[00m$ nano README.md
+[?2004l[?2004h[?1049h[22;0;0t[1;30r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[28;54H(B[0;7m[ Reading... ](B[m[28;53H(B[0;7m[ Read 1 line ](B[m[H(B[0;7m  GNU nano 6.2                                            README.md                                                     [1;119H(B[m[29d(B[0;7m^G(B[m Help[29;16H(B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut[29;61H(B[0;7m^T(B[m Execute     (B[0;7m^C(B[m Location    (B[0;7mM-U(B[m Undo[106G(B[0;7mM-A(B[m Set Mark[30d(B[0;7m^X(B[m Exit[30;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste[61G(B[0;7m^J(B[m Justify     (B[0;7m^/(B[m Go To Line  (B[0;7mM-E(B[m Redo[106G(B[0;7mM-6(B[m Copy[2d(B[0;1m[33m# Git_Session[39m(B[m[?12l[?25h[?25l[1;69H(B[0;7m*[119G(B[m[?12l[?25h[2dS# Git_SessionS[?25l[?12l[?25h(B[0;1m[33m# Git_Session[39m(B[m[K[?25l[?12l[?25h[3d[?25l[?12l[?25hS[?25l[?12l[?25ha[?25l[?12l[?25hm[?25l[?12l[?25hp[?25l[?12l[?25hl[?25l[?12l[?25he[?25l[?12l[?25h [?25l[?12l[?25hT[?25l[?12l[?25he[?25l[?12l[?25hx[?25l[?12l[?25ht[?25l[29;16H[15X[29;31H(B[0;7mM-D(B[m DOS Format       [29;61H(B[0;7mM-A(B[m Append[16X[29;93H(B[0;7mB(B[m Backup File[K[30;2H(B[0;7mC(B[m Cancel[16G[15X[30;31H(B[0;7mM-M(B[m Mac Format         [61G(B[0;7mM-P(B[m Prepend[19X[30;91H(B[0;7m^T(B[m Browse[K[28d(B[0;7mFile Name to Write: README.md                                                                                           [28;30H(B[m[?12l[?25h[?25l[28;53H[1K (B[0;7m[ Writing... ](B[m[K[1;69H(B[0;7m [119G(B[m[28;52H(B[0;7m[ Wrote 2 lines ](B[m[29;16H(B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut[29;61H(B[0;7m^T(B[m Execute     (B[0;7m^C(B[m Location[93G(B[0;7mU(B[m Undo       (B[0;7mM-A(B[m Set Mark[30;2H(B[0;7mX(B[m Exit  [16G(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste[61G(B[0;7m^J(B[m Justify     (B[0;7m^/(B[m Go To Line  (B[0;7mM-E(B[m Redo [106G(B[0;7mM-6(B[m Copy[?12l[?25h[3;12H[?25l[28d[J[30d[?12l[?25h[30;1H[?1049l[23;0;0t[?1l>[?2004l[?2004h(base) ]0;nagesh@TIGER07005: ~/firstproject[01;32mnagesh@TIGER07005[00m:[01;34m~/firstproject[00m$ LS
+[?2004lLS: command not found
+[?2004h(base) ]0;nagesh@TIGER07005: ~/firstproject[01;32mnagesh@TIGER07005[00m:[01;34m~/firstproject[00m$ ls
+[?2004lREADME.md  hello.py
+[?2004h(base) ]0;nagesh@TIGER07005: ~/firstproject[01;32mnagesh@TIGER07005[00m:[01;34m~/firstproject[00m$ lsLSnano README.mdgit add README
+[?2004lfatal: pathspec 'README' did not match any files
+[?2004h(base) ]0;nagesh@TIGER07005: ~/firstproject[01;32mnagesh@TIGER07005[00m:[01;34m~/firstproject[00m$ git add README.ME[K[Kme[Kd
+[?2004l[?2004h(base) ]0;nagesh@TIGER07005: ~/firstproject[01;32mnagesh@TIGER07005[00m:[01;34m~/firstproject[00m$ git add README.md[Kls[KLSnano README.mdgit add README[4Pstatuspush -u origin mainstatus[K
+[?2004lOn branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	[32mmodified:   README.md[m
+
+[?2004h(base) ]0;nagesh@TIGER07005: ~/firstproject[01;32mnagesh@TIGER07005[00m:[01;34m~/firstproject[00m$ [7mgit clone[27mgit clone [7mhttps://github.com/nageshperumandla/Git_Session.git[27mhttps://github.com/nageshperumandla/Git_Session.git
+[?2004lCloning into 'Git_Session'...
+remote: Enumerating objects: 6, done.[K
+remote: Counting objects:  16% (1/6)[Kremote: Counting objects:  33% (2/6)[Kremote: Counting objects:  50% (3/6)[Kremote: Counting objects:  66% (4/6)[Kremote: Counting objects:  83% (5/6)[Kremote: Counting objects: 100% (6/6)[Kremote: Counting objects: 100% (6/6), done.[K
+remote: Compressing objects:  33% (1/3)[Kremote: Compressing objects:  66% (2/3)[Kremote: Compressing objects: 100% (3/3)[Kremote: Compressing objects: 100% (3/3), done.[K
+remote: Total 6 (delta 0), reused 3 (delta 0), pack-reused 0 (from 0)[K
+Receiving objects:  16% (1/6)Receiving objects:  33% (2/6)Receiving objects:  50% (3/6)Receiving objects:  66% (4/6)Receiving objects:  83% (5/6)Receiving objects: 100% (6/6)Receiving objects: 100% (6/6), done.
+[?2004h(base) ]0;nagesh@TIGER07005: ~/firstproject[01;32mnagesh@TIGER07005[00m:[01;34m~/firstproject[00m$ [7mgit log[27mgit log
+[?2004l[?1h=[33mcommit f5d3571857c6fc9f33a4425951eca9b54153be93[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m[m
+Author: nagesh <nagesh@TIGER07005.tigeranalytics.local>[m
+Date:   Thu Dec 11 11:51:31 2025 +0530[m
+[m
+    Initial commit with hello world[m
+[m
+[33mcommit 2c41c524269d961e1d8f20ab12c048d6fcbda9ee[m[m
+Author: Nagesh Perumandla <nagesh.perumandl@tigeranalytics.com>[m
+Date:   Thu Dec 11 11:36:49 2025 +0530[m
+[m
+    Initial commit[m
+[K[?1l>[?2004h(base) ]0;nagesh@TIGER07005: ~/firstproject[01;32mnagesh@TIGER07005[00m:[01;34m~/firstproject[00m$ [7mgit log -p -2[27mgit log -p -2
+[?2004l[?1h=[33mcommit f5d3571857c6fc9f33a4425951eca9b54153be93[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m[m
+Author: nagesh <nagesh@TIGER07005.tigeranalytics.local>[m
+Date:   Thu Dec 11 11:51:31 2025 +0530[m
+[m
+    Initial commit with hello world[m
+[m
+[1mdiff --git a/hello.py b/hello.py[m[m
+[1mnew file mode 100644[m[m
+[1mindex 0000000..ad35e5a[m[m
+[1m--- /dev/null[m[m
+[1m+++ b/hello.py[m[m
+[36m@@ -0,0 +1 @@[m[m
+[32m+[m[32mprint("Hello World")[m[m
+[m
+[33mcommit 2c41c524269d961e1d8f20ab12c048d6fcbda9ee[m[m
+Author: Nagesh Perumandla <nagesh.perumandl@tigeranalytics.com>[m
+Date:   Thu Dec 11 11:36:49 2025 +0530[m
+[m
+    Initial commit[m
+[m
+[1mdiff --git a/README.md b/README.md[m[m
+[1mnew file mode 100644[m[m
+[1mindex 0000000..ee0a451[m[m
+[1m--- /dev/null[m[m
+[1m+++ b/README.md[m[m
+[36m@@ -0,0 +1 @@[m[m
+[32m+[m[32m# Git_Session[m[m
+\ No newline at end of file[m[m
+[K[?1l>[?2004h(base) ]0;nagesh@TIGER07005: ~/firstproject[01;32mnagesh@TIGER07005[00m:[01;34m~/firstproject[00m$ [7mgit log --pretty=oneline[27mgit log --pretty=oneline
+[?2004l[?1h=[33mf5d3571857c6fc9f33a4425951eca9b54153be93[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m Initial commit with hello world[m
+[33m2c41c524269d961e1d8f20ab12c048d6fcbda9ee[m Initial commit[m
+[K[?1l>[?2004h(base) ]0;nagesh@TIGER07005: ~/firstproject[01;32mnagesh@TIGER07005[00m:[01;34m~/firstproject[00m$ [7mgit log --pretty=format:"%h %s" --graph[27mgit log --pretty=format:"%h %s" --graph
+[?2004l[?1h=* f5d3571 Initial commit with hello world[m
+* 2c41c52 Initial commit[m
+[K[?1l>[?2004h(base) ]0;nagesh@TIGER07005: ~/firstproject[01;32mnagesh@TIGER07005[00m:[01;34m~/firstproject[00m$ [7mgit commit --amend[27mgit commit --amend
+[?2004lhint: Waiting for your editor to close the file... [?2004h[?1049h[22;0;0t[1;30r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[28;54H(B[0;7m[ Reading... ](B[m[28;52H(B[0;7m[ Read 18 lines ](B[m[H(B[0;7m  GNU nano 6.2                          /home/nagesh/firstproject/.git/COMMIT_EDITMSG                                   [1;119H(B[m[29d(B[0;7m^G(B[m Help[29;16H(B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut[29;61H(B[0;7m^T(B[m Execute     (B[0;7m^C(B[m Location    (B[0;7mM-U(B[m Undo[106G(B[0;7mM-A(B[m Set Mark[30d(B[0;7m^X(B[m Exit[30;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste[61G(B[0;7m^J(B[m Justify     (B[0;7m^/(B[m Go To Line  (B[0;7mM-E(B[m Redo[106G(B[0;7mM-6(B[m Copy[2dInitial commit with hello world[4d[36m# Please enter the commit message for your changes. Lines starting[5d# with '#' will be ignored, and an empty message aborts the commit.[6d#[7d# Date:      Thu Dec 11 11:51:31 2025 +0530[8d# Committer: nagesh <nagesh@TIGER07005.tigeranalytics.local>[9d#[10d# On branch main[11d# Your branch is up to date with 'origin/main'.[12d#[13d# Changes to be committed:[14d#[38;5;208m       [36mmodified:   README.md[15d#[38;5;208m       [36mnew file:   hello.py[16d#[17d# Untracked files:[18d#[38;5;208m       [36mGit_Session/[19d#[2d[39m(B[m[?12l[?25h[?25l[?12l[?25h[3d[?25l[?12l[?25h[A[?25l[29;16H[15X[29;31H(B[0;7mM-D(B[m DOS Format       [29;61H(B[0;7mM-A(B[m Append[16X[29;93H(B[0;7mB(B[m Backup File[K[30;2H(B[0;7mC(B[m Cancel[16G[15X[30;31H(B[0;7mM-M(B[m Mac Format         [61G(B[0;7mM-P(B[m Prepend[19X[30;91H(B[0;7m^T(B[m Browse[K[28d(B[0;7mFile Name to Write: /home/nagesh/firstproject/.git/COMMIT_EDITMSG                                                       [28;66H(B[m[?12l[?25h[?25l[28;53H[1K (B[0;7m[ Writing... ](B[m[K[1;119H[28;52H(B[0;7m[ Wrote 18 lines ](B[m[29;16H(B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut[29;61H(B[0;7m^T(B[m Execute     (B[0;7m^C(B[m Location[93G(B[0;7mU(B[m Undo       (B[0;7mM-A(B[m Set Mark[30;2H(B[0;7mX(B[m Exit  [16G(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste[61G(B[0;7m^J(B[m Justify     (B[0;7m^/(B[m Go To Line  (B[0;7mM-E(B[m Redo [106G(B[0;7mM-6(B[m Copy[?12l[?25h[2d[?25l[28d[J[30d[?12l[?25h[30;1H[?1049l[23;0;0t[?1l>[?2004l[K[main 247ebc1] Initial commit with hello world
+ Date: Thu Dec 11 11:51:31 2025 +0530
+ Committer: nagesh <nagesh@TIGER07005.tigeranalytics.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 2 files changed, 3 insertions(+), 1 deletion(-)
+ create mode 100644 hello.py
+[?2004h(base) ]0;nagesh@TIGER07005: ~/firstproject[01;32mnagesh@TIGER07005[00m:[01;34m~/firstproject[00m$ [7mgit checkout -- CONTRIBUTING.md[27mgit checkout -- CONTRIBUTING.md[C[1P.md[1P.md[1P.md[1P.md[1P.md[1P.md[1P.md[1P.md[1P.md[1P.md[1P.md[1P.mdr.mde.mda.mdd.md[1P.md[1P.md[1P.md[1P.mdR.mdE.mdA.mdM.md[1P.md[1P.mdD.md[1P.mdA.mdD.mdM.mdE.md
+[?2004l[?2004h(base) ]0;nagesh@TIGER07005: ~/firstproject[01;32mnagesh@TIGER07005[00m:[01;34m~/firstproject[00m$ [7mgit status[27mgit status
+[?2004lOn branch main
+Your branch and 'origin/main' have diverged,
+and have 1 and 1 different commits each, respectively.
+  (use "git pull" to merge the remote branch into yours)
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31mGit_Session/[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+[?2004h(base) ]0;nagesh@TIGER07005: ~/firstproject[01;32mnagesh@TIGER07005[00m:[01;34m~/firstproject[00m$ [7mgit remote -v[27mgit remote -v
+[?2004lorigin	https://github.com/nageshperumandla/Git_Session.git (fetch)
+origin	https://github.com/nageshperumandla/Git_Session.git (push)
+[?2004h(base) ]0;nagesh@TIGER07005: ~/firstproject[01;32mnagesh@TIGER07005[00m:[01;34m~/firstproject[00m$ [7mgit remote[27mgit remote
+[?2004lorigin
+[?2004h(base) ]0;nagesh@TIGER07005: ~/firstproject[01;32mnagesh@TIGER07005[00m:[01;34m~/firstproject[00m$ [7mgit remote add pb[27m[1Pgit remote add p[Kgitsess[K[K[K[K[K[K[KGitSess [7mhttps://github.com/nageshperumandla/Git_Session.git[27mhttps://github.com/nageshperumandla/Git_Session.git
+[?2004l[?2004h(base) ]0;nagesh@TIGER07005: ~/firstproject[01;32mnagesh@TIGER07005[00m:[01;34m~/firstproject[00m$ git remote add GitSess https://github.com/nageshperumandla/Git_Session.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K -v
+[?2004lGitSess	https://github.com/nageshperumandla/Git_Session.git (fetch)
+GitSess	https://github.com/nageshperumandla/Git_Session.git (push)
+origin	https://github.com/nageshperumandla/Git_Session.git (fetch)
+origin	https://github.com/nageshperumandla/Git_Session.git (push)
+[?2004h(base) ]0;nagesh@TIGER07005: ~/firstproject[01;32mnagesh@TIGER07005[00m:[01;34m~/firstproject[00m$ git featch [7mGitSess[27mGitSess
+[?2004lgit: 'featch' is not a git command. See 'git --help'.
+
+The most similar command is
+	fetch
+[?2004h(base) ]0;nagesh@TIGER07005: ~/firstproject[01;32mnagesh@TIGER07005[00m:[01;34m~/firstproject[00m$ git featch GitSess[1P
+[?2004lFrom https://github.com/nageshperumandla/Git_Session
+ * [new branch]      main       -> GitSess/main
+[?2004h(base) ]0;nagesh@TIGER07005: ~/firstproject[01;32mnagesh@TIGER07005[00m:[01;34m~/firstproject[00m$ [7mgit remote show origin[27mgit remote show origin
+[?2004l* remote origin
+  Fetch URL: https://github.com/nageshperumandla/Git_Session.git
+  Push  URL: https://github.com/nageshperumandla/Git_Session.git
+  HEAD branch: main
+  Remote branch:
+    main tracked
+  Local branch configured for 'git pull':
+    main merges with remote main
+  Local ref configured for 'git push':
+    main pushes to main (local out of date)
+[?2004h(base) ]0;nagesh@TIGER07005: ~/firstproject[01;32mnagesh@TIGER07005[00m:[01;34m~/firstproject[00m$ [7mgit remote show origin[27mgit remote show origin
+[?2004l* remote origin
+  Fetch URL: https://github.com/nageshperumandla/Git_Session.git
+  Push  URL: https://github.com/nageshperumandla/Git_Session.git
+  HEAD branch: main
+  Remote branch:
+    main tracked
+  Local branch configured for 'git pull':
+    main merges with remote main
+  Local ref configured for 'git push':
+    main pushes to main (local out of date)
+[?2004h(base) ]0;nagesh@TIGER07005: ~/firstproject[01;32mnagesh@TIGER07005[00m:[01;34m~/firstproject[00m$ [7mgit remote show origin[27mgit remote show origin
+[?2004l* remote origin
+  Fetch URL: https://github.com/nageshperumandla/Git_Session.git
+  Push  URL: https://github.com/nageshperumandla/Git_Session.git
+  HEAD branch: main
+  Remote branch:
+    main tracked
+  Local branch configured for 'git pull':
+    main merges with remote main
+  Local ref configured for 'git push':
+    main pushes to main (local out of date)
+[?2004h(base) ]0;nagesh@TIGER07005: ~/firstproject[01;32mnagesh@TIGER07005[00m:[01;34m~/firstproject[00m$ [7mgit remote rename pb paul[27m[1Pgit remote rename pb pau[K[K[K[K[K[K[7mGitSess[27mGitSess GitSession
+[?2004l[?2004h(base) ]0;nagesh@TIGER07005: ~/firstproject[01;32mnagesh@TIGER07005[00m:[01;34m~/firstproject[00m$ git remote rename GitSess GitSession[14Pshow origin[5Pfetch GitSess[1@a[C[C[C[C[C[C[C[C[C[C[C[5Premote -v
+[?2004lGitSession	https://github.com/nageshperumandla/Git_Session.git (fetch)
+GitSession	https://github.com/nageshperumandla/Git_Session.git (push)
+origin	https://github.com/nageshperumandla/Git_Session.git (fetch)
+origin	https://github.com/nageshperumandla/Git_Session.git (push)
+[?2004h(base) ]0;nagesh@TIGER07005: ~/firstproject[01;32mnagesh@TIGER07005[00m:[01;34m~/firstproject[00m$ [7mgit remote[27mgit remote
+[?2004lGitSession
+origin
+[?2004h(base) ]0;nagesh@TIGER07005: ~/firstproject[01;32mnagesh@TIGER07005[00m:[01;34m~/firstproject[00m$ [7mgit remote remove paul[27m[1Pgit remote remove pau[K[K[K[7mGitSession[27mGitSession
+[?2004l[?2004h(base) ]0;nagesh@TIGER07005: ~/firstproject[01;32mnagesh@TIGER07005[00m:[01;34m~/firstproject[00m$ git remote remove GitSession[K
+[?2004lorigin
+[?2004h(base) ]0;nagesh@TIGER07005: ~/firstproject[01;32mnagesh@TIGER07005[00m:[01;34m~/firstproject[00m$ [7mgit tag[27mgit tag
+[?2004l[?1h=[K[?1l>[?2004h(base) ]0;nagesh@TIGER07005: ~/firstproject[01;32mnagesh@TIGER07005[00m:[01;34m~/firstproject[00m$ git branch
+[?2004l[?1h=* [32mmain[m[m
+[K[?1l>[?2004h(base) ]0;nagesh@TIGER07005: ~/firstproject[01;32mnagesh@TIGER07005[00m:[01;34m~/firstproject[00m$ [7mgit branch testing[27mgit branch testing
+[?2004l[?2004h(base) ]0;nagesh@TIGER07005: ~/firstproject[01;32mnagesh@TIGER07005[00m:[01;34m~/firstproject[00m$ [7mgit log --oneline --decorate[27mgit log --oneline --decorate
+[?2004l[?1h=[33m247ebc1[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;32mtesting[m[33m)[m Initial commit with hello world[m
+[33m2c41c52[m Initial commit[m
+[K[?1l>[?2004h(base) ]0;nagesh@TIGER07005: ~/firstproject[01;32mnagesh@TIGER07005[00m:[01;34m~/firstproject[00m$ [7mgit checkout testing[27mgit checkout testing
+[?2004lSwitched to branch 'testing'
+[?2004h(base) ]0;nagesh@TIGER07005: ~/firstproject[01;32mnagesh@TIGER07005[00m:[01;34m~/firstproject[00m$ [7mim test.rb[27mim test.rb
+[?2004lim: command not found
+[?2004h(base) ]0;nagesh@TIGER07005: ~/firstproject[01;32mnagesh@TIGER07005[00m:[01;34m~/firstproject[00m$ [7mgit checkout -b iss53[27m[1Pgit checkout -b iss5[K[K[K[Kissue_fix[K[K[K[K[K[K[K[K[Kbug_fix
+[?2004lSwitched to a new branch 'bug_fix'
+[?2004h(base) ]0;nagesh@TIGER07005: ~/firstproject[01;32mnagesh@TIGER07005[00m:[01;34m~/firstproject[00m$ [7mgit branch iss53[27mgit branch iss53
+[?2004l[?2004h(base) ]0;nagesh@TIGER07005: ~/firstproject[01;32mnagesh@TIGER07005[00m:[01;34m~/firstproject[00m$ [7mgit checkout iss53[27mgit checkout iss53
+[?2004lSwitched to branch 'iss53'
+[?2004h(base) ]0;nagesh@TIGER07005: ~/firstproject[01;32mnagesh@TIGER07005[00m:[01;34m~/firstproject[00m$ [7mgit checkout master[27mgit checkout master
+[?2004lerror: pathspec 'master' did not match any file(s) known to git
+[?2004h(base) ]0;nagesh@TIGER07005: ~/firstproject[01;32mnagesh@TIGER07005[00m:[01;34m~/firstproject[00m$ git checkout master[K[K[K[Kin
+[?2004lSwitched to branch 'main'
+Your branch and 'origin/main' have diverged,
+and have 1 and 1 different commits each, respectively.
+  (use "git pull" to merge the remote branch into yours)
+[?2004h(base) ]0;nagesh@TIGER07005: ~/firstproject[01;32mnagesh@TIGER07005[00m:[01;34m~/firstproject[00m$ [7mgit checkout -b hotfix[27mgit checkout -b hotfix
+[?2004lSwitched to a new branch 'hotfix'
+[?2004h(base) ]0;nagesh@TIGER07005: ~/firstproject[01;32mnagesh@TIGER07005[00m:[01;34m~/firstproject[00m$ vim hello.py
+[?2004l[?1049h[22;0;0t[>4;2m[?1h=[?2004h[?1004h[1;30r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[30;1H"hello.py" 1L, 21B[2;1H▽[6n[2;1H  [3;1HPzz\[0%m[6n[3;1H           [1;1H[>c]10;?]11;?[1;1H[36mprint[m([31m"Hello World"[m)
+[94m~                                                                                                                       [3;1H~                                                                                                                       [4;1H~                                                                                                                       [5;1H~                                                                                                                       [6;1H~                                                                                                                       [7;1H~                                                                                                                       [8;1H~                                                                                                                       [9;1H~                                                                                                                       [10;1H~                                                                                                                       [11;1H~                                                                                                                       [12;1H~                                                                                                                       [13;1H~                                                                                                                       [14;1H~                                                                                                                       [15;1H~                                                                                                                       [16;1H~                                                                                                                       [17;1H~                                                                                                                       [18;1H~                                                                                                                       [19;1H~                                                                                                                       [20;1H~                                                                                                                       [21;1H~                                                                                                                       [22;1H~                                                                                                                       [23;1H~                                                                                                                       [24;1H~                                                                                                                       [25;1H~                                                                                                                       [26;1H~                                                                                                                       [27;1H~                                                                                                                       [28;1H~                                                                                                                       [29;1H~                                                                                                                       [m[30;103H1,1[11CAll[1;1H[?25h[?12$p[?25l[30;93Hg[1;1H[30;94Hb[1;1H[30;95H:[1;1H[30;96Hc[1;1H[30;97Hc[1;1H[30;98Hc[1;1H[30;99Hc[1;1H[30;100H/[1;1H[30;101Hc[1;1H[30;102Hc[1;1H[30;93H          [1;1H[30;93H/[1;1H[30;94Hc[1;1H[30;95Hc[1;1H[30;96Hc[1;1H[30;97Hc[1;1H[30;98H/[1;1H[30;99Hc[1;1H[30;100Hc[1;1H[30;101Hc[1;1H[30;102Hc[1;1H[30;93H          [1;1H[?25h[?25l[30;93Hg[1;1H[30;94Hb[1;1H[30;95H:[1;1H[30;96H0[1;1H[30;97Hc[1;1H[30;98H0[1;1H[30;99Hc[1;1H[30;100H/[1;1H[30;101H0[1;1H[30;102Hc[1;1H[30;93H          [1;1H[30;93H/[1;1H[30;94H0[1;1H[30;95Hc[1;1H[30;96H0[1;1H[30;97Hc[1;1H[30;98H/[1;1H[30;99H0[1;1H[30;100Hc[1;1H[30;101H0[1;1H[30;102Hc[1;1H[30;93H          [1;1H[27m[23m[29m[m[H[2J[1;1H[1m[96mprint[m([95m"Hello World"[m)
+[94m~                                                                                                                       [3;1H~                                                                                                                       [4;1H~                                                                                                                       [5;1H~                                                                                                                       [6;1H~                                                                                                                       [7;1H~                                                                                                                       [8;1H~                                                                                                                       [9;1H~                                                                                                                       [10;1H~                                                                                                                       [11;1H~                                                                                                                       [12;1H~                                                                                                                       [13;1H~                                                                                                                       [14;1H~                                                                                                                       [15;1H~                                                                                                                       [16;1H~                                                                                                                       [17;1H~                                                                                                                       [18;1H~                                                                                                                       [19;1H~                                                                                                                       [20;1H~                                                                                                                       [21;1H~                                                                                                                       [22;1H~                                                                                                                       [23;1H~                                                                                                                       [24;1H~                                                                                                                       [25;1H~                                                                                                                       [26;1H~                                                                                                                       [27;1H~                                                                                                                       [28;1H~                                                                                                                       [29;1H~                                                                                                                       [m[30;103H1,1[11CAll"hello.py" 1L, 21B[1;1H[?25h[?25l[30;93H~@k[1;1H[30;93H   [1;1H[?25h[?25l[30;93H~@k[1;1H[30;93H   [1;1H[?25h[?25l[30;93H~@k[1;1H[30;93H   [1;1H[?25h[?25l[30;93H^M[1;1H[30;93H  [1;1H[?25h[?25l[30;93H~@k[1;1H[30;93H   [1;1H[?25h[?25l[30;93H~@k[1;1H[30;93H   [1;1H[?25h[?25l[30;93H^O[1;1H[30;93H  [1;1H[?25h[?25l[30;93Hi[1;1H[30;93H [1;1H[30;1H[1m-- INSERT --[m[30;13H[K[30;103H1,1[11CAll[1;1H[?25h[?25l[1;1H[K[2;1H[1m[96mprint[m([95m"Hello World"[m)[2;21H[K[30;103H2[2;1H[?25h[?25l[30;103H1[1;1H[?25h[?25lp[30;105H2[1;2H[?25h[?25lr[30;105H3[1;3H[?25h[?25li[30;105H4[1;4H[?25h[?25ln[30;105H5[1;5H[?25h[?25l[1m[96mprint[m[30;105H6[1;6H[?25h[?25l([30;105H7[1;7H[?25h[?25lW[30;105H8[1;8H[?25h[?25l[1;7H[K[30;105H7[1;7H[?25h[?25l[95m"
+print([m[1CHello World[1C[95m)[m[30;105H8[1;8H[?25h[?25l[95mw[m[30;105H9[1;9H[?25h[?25l[95mE[m[30;105H10[1;10H[?25h[?25l[95mL[m[30;106H1[1;11H[?25h[?25l[95mC[m[30;106H2[1;12H[?25h[?25l[95mO[m[30;106H3[1;13H[?25h[?25l[95mM[m[30;106H4[1;14H[?25h[?25l[95mE[m[30;106H5[1;15H[?25h[?25l[1;14H[K[30;106H4[1;14H[?25h[?25l[1;13H[K[30;106H3[1;13H[?25h[?25l[1;12H[K[30;106H2[1;12H[?25h[?25l[1;11H[K[30;106H1[1;11H[?25h[?25l[1;10H[K[30;106H0[1;10H[?25h[?25l[1;9H[K[30;105H9 [1;9H[?25h[?25l[1;8H[K[30;105H8[1;8H[?25h[?25l[95mW[m[30;105H9[1;9H[?25h[?25l[95me[m[30;105H10[1;10H[?25h[?25l[95ml[m[30;106H1[1;11H[?25h[?25l[95mc[m[30;106H2[1;12H[?25h[?25l[95mo[m[30;106H3[1;13H[?25h[?25l[95mm[m[30;106H4[1;14H[?25h[?25l[95me[m[30;106H5[1;15H[?25h[?25l[95m"[m
+[1m[96mprint[m([1C[95mHello World[m[1C)[30;106H6[1;16H[?25h[?25l)[1;6H[46m([9C)[m[30;106H7[1;17H[?25h[?25l:[1;6H([9C)[30;106H8[1;18H[?25h[?25lw[30;106H9[1;19H[?25h[?25lq[30;105H20[1;20H[?25h[?25l[2;29r[2;1H[L[1;30r[30;103H[K[30;103H2,1[11CAll[2;1H[?25h[?25l[1;29r[29;1H
+[1;30r[1;1H[1m[96mprint[m([95m"Welcome"[m):wq[29;1H[94m~                                                                                                                       [m[30;103H[K[30;103H1,20[10CAll[1;20H[?25h[?25l[1;19H[K[30;105H19[1;19H[?25h[?25l[1;18H[K[30;106H8[1;18H[?25h[?25l[1;17H[K[1;6H[46m([9C)[m[30;106H7[1;17H[?25h[?25l[1;16H[K[1;6H([30;106H6[1;16H[?25h[?25l)[1;6H[46m([9C)[m[30;106H7[1;17H[?25h[?25l[30;4H[1m(insert)- --[m[30;103H[K[30;103H1,16[10CAll[1;16H[?25h[?25l[30;93H:[1;16H[30;1H[K[30;1H:[?25h:^[38;5;81m^?[?25l[m[30;3H[K[30;3H[?25h[?25l[30;2H[K[30;2H[?25hQ[?25l[30;2H[K[30;2H[?25hwq[?25l[?2004l[>4;m"hello.py" 2L, 38B written[23;2t[23;1t
+[?1004l[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t[?2004h(base) ]0;nagesh@TIGER07005: ~/firstproject[01;32mnagesh@TIGER07005[00m:[01;34m~/firstproject[00m$ ls
+[?2004l[0m[01;34mGit_Session[0m  README.md  hello.py
+[?2004h(base) ]0;nagesh@TIGER07005: ~/firstproject[01;32mnagesh@TIGER07005[00m:[01;34m~/firstproject[00m$ [7mgit checkout master[27m[1Pgit checkout maste[K[K[Kin
+[?2004lM	hello.py
+Switched to branch 'main'
+Your branch and 'origin/main' have diverged,
+and have 1 and 1 different commits each, respectively.
+  (use "git pull" to merge the remote branch into yours)
+[?2004h(base) ]0;nagesh@TIGER07005: ~/firstproject[01;32mnagesh@TIGER07005[00m:[01;34m~/firstproject[00m$ [7mgit merge hotfix[27mgit merge hotfix
+[?2004lAlready up to date.
+[?2004h(base) ]0;nagesh@TIGER07005: ~/firstproject[01;32mnagesh@TIGER07005[00m:[01;34m~/firstproject[00m$ [7mgit branch[27mgit branch
+[?2004l[?1h=  bug_fix[m[m
+  hotfix[m[m
+  iss53[m[m
+* [32mmain[m[m
+  testing[m[m
+[K[?1l>[?2004h(base) ]0;nagesh@TIGER07005: ~/firstproject[01;32mnagesh@TIGER07005[00m:[01;34m~/firstproject[00m$ [7mgit branch -v[27mgit branch -v
+[?2004l[?1h=  bug_fix[m 247ebc1 Initial commit with hello world[m
+  hotfix [m 247ebc1 Initial commit with hello world[m
+  iss53  [m 247ebc1 Initial commit with hello world[m
+* [32mmain   [m 247ebc1 [ahead 1, behind 1] Initial commit with hello world[m
+  testing[m 247ebc1 Initial commit with hello world[m
+[K[?1l>[?2004h(base) ]0;nagesh@TIGER07005: ~/firstproject[01;32mnagesh@TIGER07005[00m:[01;34m~/firstproject[00m$ [7mgit branch --no-merged[27mgit branch --no-merged
+[?2004l[?1h=[K[?1l>[?2004h(base) ]0;nagesh@TIGER07005: ~/firstproject[01;32mnagesh@TIGER07005[00m:[01;34m~/firstproject[00m$ [7mgit push origin --delete bad-branch-name[27m[1Pgit push origin --delete bad-branch-nam[K[K[K[K[K[K[K[K[K[K[K[K[K[K[7mhotfix[27mhotfix
+[?2004lUsername for 'https://github.com': nageshperumandla
+Password for 'https://nageshperumandla@github.com': 
+remote: Invalid username or token. Password authentication is not supported for Git operations.
+fatal: Authentication failed for 'https://github.com/nageshperumandla/Git_Session.git/'
+[?2004h(base) ]0;nagesh@TIGER07005: ~/firstproject[01;32mnagesh@TIGER07005[00m:[01;34m~/firstproject[00m$ git push origin --delete hotfix
+[?2004lUsername for 'https://github.com': nagesh  perumandla  
+Password for 'https://nageshperumandla@github.com': 
+error: unable to delete 'hotfix': remote ref does not exist
+[31merror: failed to push some refs to 'https://github.com/nageshperumandla/Git_Session.git'
+[m[?2004h(base) ]0;nagesh@TIGER07005: ~/firstproject[01;32mnagesh@TIGER07005[00m:[01;34m~/firstproject[00m$ git push origin --delete hotfix[9Pbranch --no-mergedv[K[Kmerge hotfixcheckout mainls[Kvim hello.pyls[Kgit checkout main[1Pmerge hotfix[6Pbranch -v-no-mergedpush origin --delete hotfix[K[7mgit branch -v[27mgit branch -v
+[?2004l[?1h=  bug_fix[m 247ebc1 Initial commit with hello world[m
+  hotfix [m 247ebc1 Initial commit with hello world[m
+  iss53  [m 247ebc1 Initial commit with hello world[m
+* [32mmain   [m 247ebc1 [ahead 1, behind 1] Initial commit with hello world[m
+  testing[m 247ebc1 Initial commit with hello world[m
+[K[?1l>[?2004h(base) ]0;nagesh@TIGER07005: ~/firstproject[01;32mnagesh@TIGER07005[00m:[01;34m~/firstproject[00m$ [7mgit checkout experiment[27mgit checkout experiment
+[?2004lerror: pathspec 'experiment' did not match any file(s) known to git
+[?2004h(base) ]0;nagesh@TIGER07005: ~/firstproject[01;32mnagesh@TIGER07005[00m:[01;34m~/firstproject[00m$ [7mgit checkout master[27m[1Pgit checkout maste[K[K[Kin
+[?2004lM	hello.py
+Already on 'main'
+Your branch and 'origin/main' have diverged,
+and have 1 and 1 different commits each, respectively.
+  (use "git pull" to merge the remote branch into yours)
+[?2004h(base) ]0;nagesh@TIGER07005: ~/firstproject[01;32mnagesh@TIGER07005[00m:[01;34m~/firstproject[00m$ git clone [7mhttps://github.com/nageshperumandla/Git_Session.git[27mhttps://github.com/nageshperumandla/Git_Session.git
+[?2004lfatal: destination path 'Git_Session' already exists and is not an empty directory.
+[?2004h(base) ]0;nagesh@TIGER07005: ~/firstproject[01;32mnagesh@TIGER07005[00m:[01;34m~/firstproject[00m$ exit
+[?2004lexit
+
+Script done on 2025-12-11 16:17:36+05:30 [COMMAND_EXIT_CODE="128"]
